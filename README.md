@@ -1,0 +1,1 @@
+# cocoapods specs repository
