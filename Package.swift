@@ -21,7 +21,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "IubendaMobileSDK",
-            path: "IubendaMobileSDK/iubenda.xcframework-2.7.1.zip"
+            path: "https://libraries.iubenda.com/ios/IubendaMobileSDK/iubenda.xcframework-2.7.1.zip"
         ),
     ]
 )
