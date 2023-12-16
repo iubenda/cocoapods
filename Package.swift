@@ -21,7 +21,7 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "IubendaMobileSDK",
-            path: "https://libraries.iubenda.com/ios/IubendaMobileSDK/iubenda.xcframework-2.7.1.zip"
+            path: "https://github.com/iubenda/cocoapods/blob/main/IubendaMobileSDK/2.7.1/IubendaMobileSDK.podspec"
         ),
     ]
 )
