@@ -1,5 +1,9 @@
 # Changelog
 
+### v2.7.6
+- Added "isFullScreen" configuration to IubendaCMPConfiguration 
+- Added "openPreferences(purposes: [Int])" method to IubendaCMP
+
 ### v2.7.5
 - Added Swift Package Manager Support
 

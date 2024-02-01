@@ -112,6 +112,7 @@ extension Foundation.NSNotification.Name {
   @available(*, deprecated, renamed: "openPreferences")
   @objc public class func editConsent(from fromViewController: UIKit.UIViewController)
   @objc public class func openPreferences(from fromViewController: UIKit.UIViewController)
+  @objc public class func openPreferences(from fromViewController: UIKit.UIViewController, purposes: [Swift.Int])
   @objc public class func getPreferencesJson() -> Swift.String
   @objc public class func getRand() -> Swift.String?
   @objc public class func getConsentRecordId() -> Swift.String?
@@ -149,6 +150,7 @@ extension Foundation.NSNotification.Name {
   @objc public var portraitHeight: Swift.Int
   @objc public var landscapeWidth: Swift.Int
   @objc public var landscapeHeight: Swift.Int
+  @objc public var isFullScreen: Swift.Bool
   @objc public var proxyUrl: Swift.String
   @objc public var automaticHandlingOfAtt: Swift.Bool
   @objc override dynamic public var description: Swift.String {

@@ -371,6 +371,7 @@ public enum ConsentStringError : Swift.Error {
   @objc public var portraitHeight: Swift.Int
   @objc public var landscapeWidth: Swift.Int
   @objc public var landscapeHeight: Swift.Int
+  @objc public var isFullScreen: Swift.Bool
   @objc public var proxyUrl: Swift.String
   @objc public var automaticHandlingOfAtt: Swift.Bool
   @objc override dynamic public var description: Swift.String {

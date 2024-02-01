@@ -420,6 +420,7 @@ SWIFT_CLASS("_TtC7iubenda23IubendaCMPConfiguration")
 @property (nonatomic) NSInteger portraitHeight;
 @property (nonatomic) NSInteger landscapeWidth;
 @property (nonatomic) NSInteger landscapeHeight;
+@property (nonatomic) BOOL isFullScreen;
 @property (nonatomic, copy) NSString * _Nonnull proxyUrl;
 @property (nonatomic) BOOL automaticHandlingOfAtt;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;

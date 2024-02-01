@@ -397,6 +397,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <CMPStora
 + (BOOL)isConsentGiven SWIFT_WARN_UNUSED_RESULT;
 + (void)editConsentFrom:(UIViewController * _Nonnull)fromViewController SWIFT_DEPRECATED_MSG("", "openPreferencesFrom:");
 + (void)openPreferencesFrom:(UIViewController * _Nonnull)fromViewController;
++ (void)openPreferencesFrom:(UIViewController * _Nonnull)fromViewController purposes:(NSArray<NSNumber *> * _Nonnull)purposes;
 + (NSString * _Nonnull)getPreferencesJson SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nullable)getRand SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nullable)getConsentRecordId SWIFT_WARN_UNUSED_RESULT;
@@ -437,6 +438,7 @@ SWIFT_CLASS("_TtC7iubenda23IubendaCMPConfiguration")
 @property (nonatomic) NSInteger portraitHeight;
 @property (nonatomic) NSInteger landscapeWidth;
 @property (nonatomic) NSInteger landscapeHeight;
+@property (nonatomic) BOOL isFullScreen;
 @property (nonatomic, copy) NSString * _Nonnull proxyUrl;
 @property (nonatomic) BOOL automaticHandlingOfAtt;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
