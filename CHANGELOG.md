@@ -1,5 +1,8 @@
 # Changelog
 
+### v2.7.7
+- Bugfix for "isFullScreen" configuration
+
 ### v2.7.6
 - Added "isFullScreen" configuration to IubendaCMPConfiguration 
 - Added "openPreferences(purposes: [Int])" method to IubendaCMP
