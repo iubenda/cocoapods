@@ -1,5 +1,8 @@
 # Changelog
 
+### v2.7.8
+- Added getSaleOptOut(), getSharingOptOut(), getTargetedAdvertisingOptOut() methods
+
 ### v2.7.7
 - Bugfix for "isFullScreen" configuration
 
