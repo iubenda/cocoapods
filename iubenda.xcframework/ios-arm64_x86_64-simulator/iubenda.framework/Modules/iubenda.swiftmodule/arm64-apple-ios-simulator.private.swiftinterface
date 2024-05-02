@@ -10,6 +10,17 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class StorePreferences : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var consent: Swift.Bool
+  @objc public var tcfv2: Swift.String?
+  @objc public var purposes: [Swift.String : Swift.Bool]?
+  @objc public var uspr: [Swift.String : Swift.Bool]?
+  @objc public var gac: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 @objc public enum UsprOptOut : Swift.Int {
   case NOTAPPLICABLE = -1
   case NO = 0
@@ -106,6 +117,7 @@ extension Foundation.NSNotification.Name {
   @objc public class func acceptDefaultConsent()
   @objc public class func accept()
   @objc public class func reject()
+  @objc public class func setStorePreferences(storePreferences: iubenda.StorePreferences)
   @available(*, deprecated, renamed: "openTcfPreferences")
   @objc public class func showConsentPreferences(from fromViewController: UIKit.UIViewController)
   @objc public class func openTcfPreferences(from fromViewController: UIKit.UIViewController)
@@ -130,6 +142,8 @@ extension Foundation.NSNotification.Name {
   @objc public class func openPreferences(from fromViewController: UIKit.UIViewController)
   @objc public class func openPreferences(from fromViewController: UIKit.UIViewController, purposes: [Swift.Int])
   @objc public class func getPreferencesJson() -> Swift.String
+  @objc public class func getPreferences() -> iubenda.Preferences
+  @objc public class func getStorePreferences() -> iubenda.StorePreferences
   @objc public class func getRand() -> Swift.String?
   public class func getSaleOptOut() -> iubenda.UsprOptOut?
   @objc public class func getConsentRecordId() -> Swift.String?

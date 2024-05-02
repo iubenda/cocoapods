@@ -368,7 +368,9 @@ typedef SWIFT_ENUM(NSInteger, GDPRApplies, open) {
 };
 
 @class IubendaCMPConfiguration;
+@class StorePreferences;
 @class UIViewController;
+@class Preferences;
 enum ATTStatus : NSInteger;
 
 SWIFT_CLASS("_TtC7iubenda10IubendaCMP")
@@ -381,6 +383,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <CMPStora
 + (void)acceptDefaultConsent SWIFT_DEPRECATED_MSG("", "accept");
 + (void)accept;
 + (void)reject;
++ (void)setStorePreferencesWithStorePreferences:(StorePreferences * _Nonnull)storePreferences;
 + (void)showConsentPreferencesFrom:(UIViewController * _Nonnull)fromViewController SWIFT_DEPRECATED_MSG("", "openTcfPreferencesFrom:");
 + (void)openTcfPreferencesFrom:(UIViewController * _Nonnull)fromViewController;
 + (void)showCookiePolicyFrom:(UIViewController * _Nonnull)fromViewController SWIFT_DEPRECATED_MSG("", "openCookiePolicyFrom:");
@@ -399,6 +402,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <CMPStora
 + (void)openPreferencesFrom:(UIViewController * _Nonnull)fromViewController;
 + (void)openPreferencesFrom:(UIViewController * _Nonnull)fromViewController purposes:(NSArray<NSNumber *> * _Nonnull)purposes;
 + (NSString * _Nonnull)getPreferencesJson SWIFT_WARN_UNUSED_RESULT;
++ (Preferences * _Nonnull)getPreferences SWIFT_WARN_UNUSED_RESULT;
++ (StorePreferences * _Nonnull)getStorePreferences SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nullable)getRand SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nullable)getConsentRecordId SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nonnull)getGoogleAdditionalConsent SWIFT_WARN_UNUSED_RESULT;
@@ -468,6 +473,17 @@ SWIFT_CLASS("_TtC7iubenda11Preferences")
 @property (nonatomic, strong) TCF2Data * _Nullable tcfv2InAppTCData;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtC7iubenda16StorePreferences")
+@interface StorePreferences : NSObject
+@property (nonatomic) BOOL consent;
+@property (nonatomic, copy) NSString * _Nullable tcfv2;
+@property (nonatomic, copy) NSDictionary<NSString *, NSNumber *> * _Nullable purposes;
+@property (nonatomic, copy) NSDictionary<NSString *, NSNumber *> * _Nullable uspr;
+@property (nonatomic, copy) NSString * _Nullable gac;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 typedef SWIFT_ENUM(NSInteger, SubjectToGDPR, open) {
