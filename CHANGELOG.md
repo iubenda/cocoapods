@@ -1,6 +1,13 @@
 # Changelog
 
-### v2.7.8
+### v2.8.0
+- Bugfix for PrivacyInfo.xcprivacy manifest file
+
+### v2.7.9
+- Added setStorePreferences() method with StorePreferences object
+- Added PrivacyInfo.xcprivacy manifest file
+
+### v2.7.7
 - Added getSaleOptOut(), getSharingOptOut(), getTargetedAdvertisingOptOut() methods
 
 ### v2.7.7

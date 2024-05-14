@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/sivo80MPY3lhFVZqHGvZJHTXBM=
+		Ifso8Cgm7fHq3Pe/v278k5lHJwI=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		UeKkICVzOFqha8o2JqE5839/7G8=
+		9mei3pPCYotpokYJ1u5frDhu8hY=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		fWXYeQZw1PeBNe5UPlQGgUWs+d8=
+		NJPrgTtJmcPNwvGKH0PVUenXtPM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		fMHYyMnJEF4UrKjto1Ek5el8+q8=
+		HDPLpT4KzLdSWJCalb9ML9A3PbU=
 		</data>
 		<key>javascript.js</key>
 		<data>
@@ -126,11 +126,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UeKkICVzOFqha8o2JqE5839/7G8=
+			9mei3pPCYotpokYJ1u5frDhu8hY=
 			</data>
 			<key>hash2</key>
 			<data>
-			A5lT+rasSfo2dEGv7E54/dqS9iSix6iiNN20slkftgs=
+			ouw+sVrKhPukCcKrLOZxmSaT06+rJKX2vfhnFNAb0jw=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
@@ -181,11 +181,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fWXYeQZw1PeBNe5UPlQGgUWs+d8=
+			NJPrgTtJmcPNwvGKH0PVUenXtPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			rJomVCBHiH57cPwDa2+cDMtuv8g8yiyYIBH37gTZPK8=
+			EHpcbCzDBKmO8zVOjSgJkdzhyL+mvXhNoJZpl7biiso=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -203,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fMHYyMnJEF4UrKjto1Ek5el8+q8=
+			HDPLpT4KzLdSWJCalb9ML9A3PbU=
 			</data>
 			<key>hash2</key>
 			<data>
-			jf8EeRrIYi4oAlAnKYqNu6aycy5OxRU19F8cTqpQ1uQ=
+			zVO3r9bwCa9UBhULcsudKDmSqavQPs9B8vIFAqbZPFQ=
 			</data>
 		</dict>
 		<key>javascript.js</key>
