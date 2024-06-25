@@ -5942,6 +5942,87 @@
           },
           {
             "kind": "Var",
+            "name": "enableAdvertiserConsentMode",
+            "printedName": "enableAdvertiserConsentMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7iubenda12CMPStorageV2C27enableAdvertiserConsentModeSbvp",
+            "mangledName": "$s7iubenda12CMPStorageV2C27enableAdvertiserConsentModeSbvp",
+            "moduleName": "iubenda",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iubenda12CMPStorageV2C27enableAdvertiserConsentModeSbvg",
+                "mangledName": "$s7iubenda12CMPStorageV2C27enableAdvertiserConsentModeSbvg",
+                "moduleName": "iubenda",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iubenda12CMPStorageV2C27enableAdvertiserConsentModeSbvs",
+                "mangledName": "$s7iubenda12CMPStorageV2C27enableAdvertiserConsentModeSbvs",
+                "moduleName": "iubenda",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iubenda12CMPStorageV2C27enableAdvertiserConsentModeSbvM",
+                "mangledName": "$s7iubenda12CMPStorageV2C27enableAdvertiserConsentModeSbvM",
+                "moduleName": "iubenda",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "gvlVersion",
             "printedName": "gvlVersion",
             "children": [
@@ -13870,6 +13951,99 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "enableAdvertiserConsentMode",
+            "printedName": "enableAdvertiserConsentMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iubenda@objc(cs)TCF2Data(py)enableAdvertiserConsentMode",
+            "mangledName": "$s7iubenda8TCF2DataC27enableAdvertiserConsentModeSbvp",
+            "moduleName": "iubenda",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iubenda@objc(cs)TCF2Data(im)enableAdvertiserConsentMode",
+                "mangledName": "$s7iubenda8TCF2DataC27enableAdvertiserConsentModeSbvg",
+                "moduleName": "iubenda",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iubenda@objc(cs)TCF2Data(im)setEnableAdvertiserConsentMode:",
+                "mangledName": "$s7iubenda8TCF2DataC27enableAdvertiserConsentModeSbvs",
+                "moduleName": "iubenda",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iubenda8TCF2DataC27enableAdvertiserConsentModeSbvM",
+                "mangledName": "$s7iubenda8TCF2DataC27enableAdvertiserConsentModeSbvM",
+                "moduleName": "iubenda",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -18418,6 +18592,29 @@
           },
           {
             "kind": "Function",
+            "name": "getEnableAdvertiserConsentMode",
+            "printedName": "getEnableAdvertiserConsentMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iubenda@objc(cs)IubendaCMP(cm)getEnableAdvertiserConsentMode",
+            "mangledName": "$s7iubenda10IubendaCMPC30getEnableAdvertiserConsentModeSbyFZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getVendorList",
             "printedName": "getVendorList(version:callback:)",
             "children": [
@@ -19374,49 +19571,56 @@
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
-      "offset": 1863,
+      "offset": 1848,
+      "length": 36,
+      "value": "\"IABTCF_EnableAdvertiserConsentMode\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "kind": "StringLiteral",
+      "offset": 1949,
       "length": 32,
       "value": "\"IubendaCMP_CustomUi_gvlVersion\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
-      "offset": 1940,
+      "offset": 2026,
       "length": 29,
       "value": "\"IubendaCMP_CustomUi_Version\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
-      "offset": 2009,
+      "offset": 2095,
       "length": 24,
       "value": "\"IubendaCMP_CustomUi_Id\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
-      "offset": 2099,
+      "offset": 2185,
       "length": 50,
       "value": "\"IubendaCMP_CustomUi_PublisherPurposeRestrictions\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
-      "offset": 2201,
+      "offset": 2287,
       "length": 36,
       "value": "\"IubendaCMP_CustomUi_VendorConsents\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
-      "offset": 2290,
+      "offset": 2376,
       "length": 37,
       "value": "\"IubendaCMP_CustomUi_PurposeConsents\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
-      "offset": 2385,
+      "offset": 2471,
       "length": 42,
       "value": "\"IubendaCMP_CustomUi_SpecialFeatureOptins\""
     },
@@ -19947,6 +20151,13 @@
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2398,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 1614,
       "length": 8,
@@ -19955,28 +20166,28 @@
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
-      "offset": 3439,
+      "offset": 3581,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
-      "offset": 3493,
+      "offset": 3635,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
-      "offset": 3370,
+      "offset": 3512,
       "length": 16,
       "value": "\"iubenda.TCF2DataConsents\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
-      "offset": 4012,
+      "offset": 4154,
       "length": 4,
       "value": "\"iubenda.Uspr\""
     },

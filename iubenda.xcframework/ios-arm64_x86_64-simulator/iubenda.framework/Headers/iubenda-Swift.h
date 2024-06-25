@@ -407,6 +407,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <CMPStora
 + (NSString * _Nullable)getRand SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nullable)getConsentRecordId SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nonnull)getGoogleAdditionalConsent SWIFT_WARN_UNUSED_RESULT;
++ (BOOL)getEnableAdvertiserConsentMode SWIFT_WARN_UNUSED_RESULT;
 + (BOOL)canOpenPreferences SWIFT_WARN_UNUSED_RESULT;
 + (void)requestAttConsentFrom:(UIViewController * _Nonnull)fromViewController callback:(void (^ _Nonnull)(enum ATTStatus))callback;
 + (void)getATTStatusFrom:(UIViewController * _Nonnull)fromViewController callback:(void (^ _Nonnull)(enum ATTStatus))callback;
@@ -510,6 +511,7 @@ SWIFT_CLASS("_TtC7iubenda8TCF2Data")
 @property (nonatomic, copy) NSString * _Nonnull specialFeatureOptins;
 @property (nonatomic, strong) TCF2DataConsents * _Nullable publisher;
 @property (nonatomic, copy) NSString * _Nonnull addtlConsent;
+@property (nonatomic) BOOL enableAdvertiserConsentMode;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1005,6 +1007,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <CMPStora
 + (NSString * _Nullable)getRand SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nullable)getConsentRecordId SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nonnull)getGoogleAdditionalConsent SWIFT_WARN_UNUSED_RESULT;
++ (BOOL)getEnableAdvertiserConsentMode SWIFT_WARN_UNUSED_RESULT;
 + (BOOL)canOpenPreferences SWIFT_WARN_UNUSED_RESULT;
 + (void)requestAttConsentFrom:(UIViewController * _Nonnull)fromViewController callback:(void (^ _Nonnull)(enum ATTStatus))callback;
 + (void)getATTStatusFrom:(UIViewController * _Nonnull)fromViewController callback:(void (^ _Nonnull)(enum ATTStatus))callback;
@@ -1108,6 +1111,7 @@ SWIFT_CLASS("_TtC7iubenda8TCF2Data")
 @property (nonatomic, copy) NSString * _Nonnull specialFeatureOptins;
 @property (nonatomic, strong) TCF2DataConsents * _Nullable publisher;
 @property (nonatomic, copy) NSString * _Nonnull addtlConsent;
+@property (nonatomic) BOOL enableAdvertiserConsentMode;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end

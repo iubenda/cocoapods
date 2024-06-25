@@ -1,5 +1,8 @@
 # Changelog
 
+### v2.8.1
+- Added EnableAdvertiserConsentMode support
+
 ### v2.8.0
 - Bugfix for PrivacyInfo.xcprivacy manifest file
 

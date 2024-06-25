@@ -198,6 +198,10 @@ public class CMPStorageV2 : iubenda.CMPStorage {
     get
     set(value)
   }
+  public var enableAdvertiserConsentMode: Swift.Bool {
+    get
+    set(value)
+  }
   @objc public var gvlVersion: Swift.Int {
     @objc get
     @objc set(value)
@@ -351,6 +355,7 @@ public enum ConsentStringError : Swift.Error {
   @objc public var specialFeatureOptins: Swift.String
   @objc public var publisher: iubenda.TCF2DataConsents?
   @objc public var addtlConsent: Swift.String
+  @objc public var enableAdvertiserConsentMode: Swift.Bool
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers public class TCF2DataConsents : ObjectiveC.NSObject {
@@ -445,6 +450,7 @@ extension Foundation.NSNotification.Name {
   public class func getSaleOptOut() -> iubenda.UsprOptOut?
   @objc public class func getConsentRecordId() -> Swift.String?
   @objc public class func getGoogleAdditionalConsent() -> Swift.String
+  @objc public class func getEnableAdvertiserConsentMode() -> Swift.Bool
   public class func getVendorList(version: Swift.Int? = nil, callback: @escaping (Swift.Result<iubenda.VendorResult, any Swift.Error>) -> ())
   public class func setUserPreferences(userPreferences: iubenda.UserPreferences?, callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> ())
   public class func getUserPreferences() -> iubenda.UserPreferences
