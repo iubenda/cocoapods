@@ -5891,6 +5891,65 @@
           },
           {
             "kind": "Function",
+            "name": "setStorePreferences",
+            "printedName": "setStorePreferences(storePreferences:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StorePreferences",
+                "printedName": "iubenda.StorePreferences",
+                "usr": "c:@M@iubenda@objc(cs)StorePreferences"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iubenda10IubendaCMPC19setStorePreferences05storeF08callbackyAA0eF0C_ys6ResultOySbs5Error_pGctFZ",
+            "mangledName": "$s7iubenda10IubendaCMPC19setStorePreferences05storeF08callbackyAA0eF0C_ys6ResultOySbs5Error_pGctFZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "showConsentPreferences",
             "printedName": "showConsentPreferences(from:)",
             "children": [

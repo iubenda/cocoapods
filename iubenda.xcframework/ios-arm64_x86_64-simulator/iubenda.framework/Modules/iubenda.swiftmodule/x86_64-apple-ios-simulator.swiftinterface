@@ -119,6 +119,7 @@ extension Foundation.NSNotification.Name {
   @objc public class func accept()
   @objc public class func reject()
   @objc public class func setStorePreferences(storePreferences: iubenda.StorePreferences)
+  public class func setStorePreferences(storePreferences: iubenda.StorePreferences, callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> ())
   @available(*, deprecated, renamed: "openTcfPreferences")
   @objc public class func showConsentPreferences(from fromViewController: UIKit.UIViewController)
   @objc public class func openTcfPreferences(from fromViewController: UIKit.UIViewController)

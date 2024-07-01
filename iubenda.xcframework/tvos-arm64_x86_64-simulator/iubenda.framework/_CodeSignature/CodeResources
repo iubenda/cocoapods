@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7OsbITfi0FN/dAj/YjPTMFsiX9o=
+		8iyoahzi1ontSNnKX732XGICW1o=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		/1HDQg3PLfT1SMoPF52ZfJU3dyg=
+		LZOy6O+ACpP1GWLPZU8s/isRmpI=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		X+3cXDyyVTlqO2SibgP0NMqhvMM=
+		c45utgr1uq4jbaYnmkbSi0ClCnI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -126,11 +126,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/1HDQg3PLfT1SMoPF52ZfJU3dyg=
+			LZOy6O+ACpP1GWLPZU8s/isRmpI=
 			</data>
 			<key>hash2</key>
 			<data>
-			bAw6q7taGkrgtzH5iLJxXBUxH+aZ4YWJqeUEeySs7Wc=
+			gLp0sNVwnmHmqU8UK/36RPB28ZrWSKPRbsk3w9q70Ps=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
@@ -181,11 +181,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X+3cXDyyVTlqO2SibgP0NMqhvMM=
+			c45utgr1uq4jbaYnmkbSi0ClCnI=
 			</data>
 			<key>hash2</key>
 			<data>
-			l8yXBx7TZURvSQQim/mi8/liGmiOisIb4LGmRGaRjnM=
+			FrXldnSyPR5VT8gL4sWtz/9U/FWlUe4c1r4CEk90ou8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
