@@ -94,9 +94,23 @@ import _SwiftConcurrencyShims
 }
 extension Foundation.NSNotification.Name {
   public static let ConsentChanged: Foundation.NSNotification.Name
+  public static let OnStartupFailed: Foundation.NSNotification.Name
+  public static let OnError: Foundation.NSNotification.Name
+  public static let OnFatalError: Foundation.NSNotification.Name
+  public static let OnReady: Foundation.NSNotification.Name
+  public static let OnBannerShown: Foundation.NSNotification.Name
+  public static let On2ndLayerShown: Foundation.NSNotification.Name
+  public static let OnPreferenceExpressed: Foundation.NSNotification.Name
 }
 @objc extension Foundation.NSNotification {
   @objc public static let ConsentChanged: Foundation.NSNotification.Name
+  @objc public static let OnStartupFailed: Foundation.NSNotification.Name
+  @objc public static let OnError: Foundation.NSNotification.Name
+  @objc public static let OnFatalError: Foundation.NSNotification.Name
+  @objc public static let OnReady: Foundation.NSNotification.Name
+  @objc public static let OnBannerShown: Foundation.NSNotification.Name
+  @objc public static let On2ndLayerShown: Foundation.NSNotification.Name
+  @objc public static let OnPreferenceExpressed: Foundation.NSNotification.Name
 }
 @_inheritsConvenienceInitializers @objc public class IubendaCMP : ObjectiveC.NSObject {
   @objc public enum ATTStatus : Swift.Int {
@@ -187,6 +201,7 @@ extension Foundation.NSNotification.Name {
   @objc public var isFullScreen: Swift.Bool
   @objc public var proxyUrl: Swift.String
   @objc public var automaticHandlingOfAtt: Swift.Bool
+  @objc public var fatalErrorTimeout: Swift.Int
   @objc override dynamic public var description: Swift.String {
     @objc get
   }

@@ -447,6 +447,7 @@ SWIFT_CLASS("_TtC7iubenda23IubendaCMPConfiguration")
 @property (nonatomic) BOOL isFullScreen;
 @property (nonatomic, copy) NSString * _Nonnull proxyUrl;
 @property (nonatomic) BOOL automaticHandlingOfAtt;
+@property (nonatomic) NSInteger fatalErrorTimeout;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -455,6 +456,20 @@ SWIFT_CLASS("_TtC7iubenda23IubendaCMPConfiguration")
 @interface NSNotification (SWIFT_EXTENSION(iubenda))
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull ConsentChanged;)
 + (NSNotificationName _Nonnull)ConsentChanged SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnStartupFailed;)
++ (NSNotificationName _Nonnull)OnStartupFailed SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnError;)
++ (NSNotificationName _Nonnull)OnError SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnFatalError;)
++ (NSNotificationName _Nonnull)OnFatalError SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnReady;)
++ (NSNotificationName _Nonnull)OnReady SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnBannerShown;)
++ (NSNotificationName _Nonnull)OnBannerShown SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull On2ndLayerShown;)
++ (NSNotificationName _Nonnull)On2ndLayerShown SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnPreferenceExpressed;)
++ (NSNotificationName _Nonnull)OnPreferenceExpressed SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class Uspr;
@@ -1047,6 +1062,7 @@ SWIFT_CLASS("_TtC7iubenda23IubendaCMPConfiguration")
 @property (nonatomic) BOOL isFullScreen;
 @property (nonatomic, copy) NSString * _Nonnull proxyUrl;
 @property (nonatomic) BOOL automaticHandlingOfAtt;
+@property (nonatomic) NSInteger fatalErrorTimeout;
 @property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -1055,6 +1071,20 @@ SWIFT_CLASS("_TtC7iubenda23IubendaCMPConfiguration")
 @interface NSNotification (SWIFT_EXTENSION(iubenda))
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull ConsentChanged;)
 + (NSNotificationName _Nonnull)ConsentChanged SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnStartupFailed;)
++ (NSNotificationName _Nonnull)OnStartupFailed SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnError;)
++ (NSNotificationName _Nonnull)OnError SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnFatalError;)
++ (NSNotificationName _Nonnull)OnFatalError SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnReady;)
++ (NSNotificationName _Nonnull)OnReady SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnBannerShown;)
++ (NSNotificationName _Nonnull)OnBannerShown SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull On2ndLayerShown;)
++ (NSNotificationName _Nonnull)On2ndLayerShown SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSNotificationName _Nonnull OnPreferenceExpressed;)
++ (NSNotificationName _Nonnull)OnPreferenceExpressed SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class Uspr;

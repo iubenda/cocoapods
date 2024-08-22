@@ -9443,6 +9443,99 @@
           },
           {
             "kind": "Var",
+            "name": "fatalErrorTimeout",
+            "printedName": "fatalErrorTimeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@iubenda@objc(cs)IubendaCMPConfiguration(py)fatalErrorTimeout",
+            "mangledName": "$s7iubenda23IubendaCMPConfigurationC17fatalErrorTimeoutSivp",
+            "moduleName": "iubenda",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iubenda@objc(cs)IubendaCMPConfiguration(im)fatalErrorTimeout",
+                "mangledName": "$s7iubenda23IubendaCMPConfigurationC17fatalErrorTimeoutSivg",
+                "moduleName": "iubenda",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@iubenda@objc(cs)IubendaCMPConfiguration(im)setFatalErrorTimeout:",
+                "mangledName": "$s7iubenda23IubendaCMPConfigurationC17fatalErrorTimeoutSivs",
+                "moduleName": "iubenda",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7iubenda23IubendaCMPConfigurationC17fatalErrorTimeoutSivM",
+                "mangledName": "$s7iubenda23IubendaCMPConfigurationC17fatalErrorTimeoutSivM",
+                "moduleName": "iubenda",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "description",
             "printedName": "description",
             "children": [
@@ -20170,6 +20263,343 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnStartupFailed",
+            "printedName": "OnStartupFailed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea7iubendaE15OnStartupFailedABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea7iubendaE15OnStartupFailedABvpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea7iubendaE15OnStartupFailedABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea7iubendaE15OnStartupFailedABvgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnError",
+            "printedName": "OnError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea7iubendaE7OnErrorABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea7iubendaE7OnErrorABvpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea7iubendaE7OnErrorABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea7iubendaE7OnErrorABvgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnFatalError",
+            "printedName": "OnFatalError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea7iubendaE12OnFatalErrorABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea7iubendaE12OnFatalErrorABvpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea7iubendaE12OnFatalErrorABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea7iubendaE12OnFatalErrorABvgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnReady",
+            "printedName": "OnReady",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea7iubendaE7OnReadyABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea7iubendaE7OnReadyABvpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea7iubendaE7OnReadyABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea7iubendaE7OnReadyABvgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnBannerShown",
+            "printedName": "OnBannerShown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea7iubendaE13OnBannerShownABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea7iubendaE13OnBannerShownABvpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea7iubendaE13OnBannerShownABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea7iubendaE13OnBannerShownABvgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "On2ndLayerShown",
+            "printedName": "On2ndLayerShown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea7iubendaE15On2ndLayerShownABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea7iubendaE15On2ndLayerShownABvpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea7iubendaE15On2ndLayerShownABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea7iubendaE15On2ndLayerShownABvgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnPreferenceExpressed",
+            "printedName": "OnPreferenceExpressed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea7iubendaE21OnPreferenceExpressedABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea7iubendaE21OnPreferenceExpressedABvpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea7iubendaE21OnPreferenceExpressedABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea7iubendaE21OnPreferenceExpressedABvgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -20315,6 +20745,385 @@
                 "declKind": "Accessor",
                 "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cm)ConsentChanged",
                 "mangledName": "$sSo14NSNotificationC7iubendaE14ConsentChangedSo0A4NameavgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnStartupFailed",
+            "printedName": "OnStartupFailed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cpy)OnStartupFailed",
+            "mangledName": "$sSo14NSNotificationC7iubendaE15OnStartupFailedSo0A4NameavpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cm)OnStartupFailed",
+                "mangledName": "$sSo14NSNotificationC7iubendaE15OnStartupFailedSo0A4NameavgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnError",
+            "printedName": "OnError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cpy)OnError",
+            "mangledName": "$sSo14NSNotificationC7iubendaE7OnErrorSo0A4NameavpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cm)OnError",
+                "mangledName": "$sSo14NSNotificationC7iubendaE7OnErrorSo0A4NameavgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnFatalError",
+            "printedName": "OnFatalError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cpy)OnFatalError",
+            "mangledName": "$sSo14NSNotificationC7iubendaE12OnFatalErrorSo0A4NameavpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cm)OnFatalError",
+                "mangledName": "$sSo14NSNotificationC7iubendaE12OnFatalErrorSo0A4NameavgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnReady",
+            "printedName": "OnReady",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cpy)OnReady",
+            "mangledName": "$sSo14NSNotificationC7iubendaE7OnReadySo0A4NameavpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cm)OnReady",
+                "mangledName": "$sSo14NSNotificationC7iubendaE7OnReadySo0A4NameavgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnBannerShown",
+            "printedName": "OnBannerShown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cpy)OnBannerShown",
+            "mangledName": "$sSo14NSNotificationC7iubendaE13OnBannerShownSo0A4NameavpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cm)OnBannerShown",
+                "mangledName": "$sSo14NSNotificationC7iubendaE13OnBannerShownSo0A4NameavgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "On2ndLayerShown",
+            "printedName": "On2ndLayerShown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cpy)On2ndLayerShown",
+            "mangledName": "$sSo14NSNotificationC7iubendaE15On2ndLayerShownSo0A4NameavpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cm)On2ndLayerShown",
+                "mangledName": "$sSo14NSNotificationC7iubendaE15On2ndLayerShownSo0A4NameavgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnPreferenceExpressed",
+            "printedName": "OnPreferenceExpressed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cpy)OnPreferenceExpressed",
+            "mangledName": "$sSo14NSNotificationC7iubendaE21OnPreferenceExpressedSo0A4NameavpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cm)OnPreferenceExpressed",
+                "mangledName": "$sSo14NSNotificationC7iubendaE21OnPreferenceExpressedSo0A4NameavgZ",
                 "moduleName": "iubenda",
                 "static": true,
                 "implicit": true,
@@ -20661,43 +21470,92 @@
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 36,
+      "value": "\"IubendaOnStartupFailedNotification\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 28,
+      "value": "\"IubendaOnErrorNotification\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 33,
+      "value": "\"IubendaOnFatalErrorNotification\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "kind": "StringLiteral",
+      "offset": 547,
+      "length": 28,
+      "value": "\"IubendaOnReadyNotification\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 34,
+      "value": "\"IubendaOnBannerShownNotification\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 36,
+      "value": "\"IubendaOn2ndLayerShownNotification\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "kind": "StringLiteral",
+      "offset": 929,
+      "length": 42,
+      "value": "\"IubendaOnPreferenceExpressedNotification\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 442,
+      "offset": 1711,
       "length": 3,
       "value": "123"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 595,
+      "offset": 1864,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 725,
+      "offset": 1994,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 751,
+      "offset": 2020,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 725,
+      "offset": 1994,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 751,
+      "offset": 2020,
       "length": 1,
       "value": "1"
     },
@@ -20826,6 +21684,13 @@
       "offset": 1330,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1382,
+      "length": 4,
+      "value": "3000"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
@@ -21586,7 +22451,14 @@
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 454,
+      "offset": 452,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 494,
       "length": 5,
       "value": "false"
     },
