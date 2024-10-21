@@ -1,5 +1,14 @@
 # Changelog
 
+### v2.8.4
+- Added invalidateConsentInterval
+
+### v2.8.3
+- Added IubendaCMPCallback and IubendaCMPConfig.fatalErrorTimeout()
+
+### v2.8.2
+- Added setStorePreferences() method with StorePreferences object and callback
+
 ### v2.8.1
 - Added EnableAdvertiserConsentMode support
 

@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name iubenda
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AppTrackingTransparency
 import Foundation
 import Swift
@@ -169,6 +170,7 @@ extension Foundation.NSNotification.Name {
   public class func setUserPreferences(userPreferences: iubenda.UserPreferences?, callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> ())
   public class func getUserPreferences() -> iubenda.UserPreferences
   public class func shouldGetConsentForInvalidateConsentBefore() -> Swift.Bool
+  public class func shouldGetConsentForInvalidateConsentInterval() -> Swift.Bool
   public class func isPreferenceExpressed() -> Swift.Bool
   @objc public class func canOpenPreferences() -> Swift.Bool
   @objc public class func requestAttConsent(from fromViewController: UIKit.UIViewController, callback: @escaping (iubenda.IubendaCMP.ATTStatus) -> ())
@@ -452,18 +454,18 @@ public enum ConsentStringError : Swift.Error {
   public func encode(to encoder: any Swift.Encoder) throws
   required public init(from decoder: any Swift.Decoder) throws
 }
-@objc public class WebViewController : ObjectiveC.NSObject, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler, WebKit.WKUIDelegate {
-  @objc weak public var delegate: (any iubenda.WebViewControllerDelegate)?
-  public init(webView: WebKit.WKWebView, config: iubenda.IubendaCMPConfiguration)
-  public func canClose() -> Swift.Bool
-  public func closeNotice()
-  @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
-  public func hasCplSavedCallback() -> Swift.Bool
-  @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-  @objc public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
-  @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
-  @objc public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
-  @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+@objc @_Concurrency.MainActor @preconcurrency public class WebViewController : ObjectiveC.NSObject, WebKit.WKNavigationDelegate, WebKit.WKScriptMessageHandler, WebKit.WKUIDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any iubenda.WebViewControllerDelegate)?
+  @_Concurrency.MainActor @preconcurrency public init(webView: WebKit.WKWebView, config: iubenda.IubendaCMPConfiguration)
+  @_Concurrency.MainActor @preconcurrency public func canClose() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public func closeNotice()
+  @_Concurrency.MainActor @preconcurrency @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor @preconcurrency public func hasCplSavedCallback() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
   @objc deinit
 }
 @objc public enum BannerPosition : Swift.Int {
@@ -520,6 +522,7 @@ extension iubenda.IubendaCMP.ATTStatus : Swift.Hashable {}
 extension iubenda.IubendaCMP.ATTStatus : Swift.RawRepresentable {}
 extension iubenda.ConsentStringError : Swift.Equatable {}
 extension iubenda.ConsentStringError : Swift.Hashable {}
+extension iubenda.WebViewController : Swift.Sendable {}
 extension iubenda.BannerPosition : Swift.Equatable {}
 extension iubenda.BannerPosition : Swift.Hashable {}
 extension iubenda.BannerPosition : Swift.RawRepresentable {}

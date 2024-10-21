@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "iubenda",
+    "printedName": "iubenda",
     "children": [
       {
         "kind": "Import",
@@ -775,6 +775,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1055,6 +1069,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2816,6 +2844,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4087,6 +4129,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -6945,6 +7003,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CMPStorage",
             "printedName": "CMPStorage",
             "usr": "c:@M@iubenda@objc(pl)CMPStorage",
@@ -7160,6 +7232,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7567,6 +7653,20 @@
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -8566,6 +8666,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8898,6 +9012,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -10474,6 +10604,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10746,6 +10890,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -11003,6 +11161,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -12239,6 +12411,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -12520,6 +12706,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14086,6 +14286,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -14645,6 +14859,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15021,6 +15249,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15291,6 +15533,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -17900,6 +18156,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -18155,6 +18425,20 @@
             ],
             "enumRawTypeName": "Int",
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "Equatable",
@@ -18887,6 +19171,28 @@
           },
           {
             "kind": "Function",
+            "name": "shouldGetConsentForInvalidateConsentInterval",
+            "printedName": "shouldGetConsentForInvalidateConsentInterval()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iubenda10IubendaCMPC029shouldGetConsentForInvalidateF8IntervalSbyFZ",
+            "mangledName": "$s7iubenda10IubendaCMPC029shouldGetConsentForInvalidateF8IntervalSbyFZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "isPreferenceExpressed",
             "printedName": "isPreferenceExpressed()",
             "children": [
@@ -18971,6 +19277,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -19428,6 +19748,20 @@
         "isFromExtension": true,
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "_ObjectiveCBridgeable",
@@ -19967,6 +20301,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -20053,27 +20401,6 @@
       "kind": "IntegerLiteral",
       "offset": 162,
       "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
-      "kind": "IntegerLiteral",
-      "offset": 179,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
-      "kind": "IntegerLiteral",
-      "offset": 196,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
-      "kind": "IntegerLiteral",
-      "offset": 162,
-      "length": 1,
       "value": "-1"
     },
     {
@@ -20506,146 +20833,6 @@
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
-      "offset": 471,
-      "length": 25,
-      "value": "\"gvlSpecificationVersion\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 530,
-      "length": 19,
-      "value": "\"vendorListVersion\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 582,
-      "length": 18,
-      "value": "\"tcfPolicyVersion\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 628,
-      "length": 13,
-      "value": "\"lastUpdated\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 665,
-      "length": 9,
-      "value": "\"vendors\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 2953,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 2978,
-      "length": 6,
-      "value": "\"name\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3009,
-      "length": 10,
-      "value": "\"purposes\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3050,
-      "length": 16,
-      "value": "\"legIntPurposes\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3099,
-      "length": 18,
-      "value": "\"flexiblePurposes\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3149,
-      "length": 17,
-      "value": "\"specialPurposes\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3191,
-      "length": 10,
-      "value": "\"features\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3233,
-      "length": 17,
-      "value": "\"specialFeatures\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3276,
-      "length": 11,
-      "value": "\"policyUrl\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3323,
-      "length": 21,
-      "value": "\"cookieMaxAgeSeconds\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3372,
-      "length": 13,
-      "value": "\"usesCookies\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3415,
-      "length": 15,
-      "value": "\"cookieRefresh\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3466,
-      "length": 21,
-      "value": "\"usesNonCookieAccess\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3530,
-      "length": 28,
-      "value": "\"deviceStorageDisclosureUrl\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
-      "offset": 3586,
-      "length": 13,
-      "value": "\"deletedDate\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
-      "kind": "StringLiteral",
       "offset": 2953,
       "length": 4,
       "value": "\"id\""
@@ -20777,52 +20964,10 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
-      "kind": "IntegerLiteral",
-      "offset": 134,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
-      "kind": "IntegerLiteral",
-      "offset": 151,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
-      "kind": "IntegerLiteral",
-      "offset": 168,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
       "kind": "IntegerLiteral",
       "offset": 136,
       "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
-      "kind": "IntegerLiteral",
-      "offset": 153,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
-      "kind": "IntegerLiteral",
-      "offset": 170,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
-      "kind": "IntegerLiteral",
-      "offset": 136,
-      "length": 1,
       "value": "-1"
     },
     {
@@ -20863,13 +21008,6 @@
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
-      "offset": 92,
-      "length": 11,
-      "value": "\"iubenda.Preferences\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
-      "kind": "StringLiteral",
       "offset": 1365,
       "length": 2,
       "value": "\"\""
@@ -20880,13 +21018,6 @@
       "offset": 1404,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
-      "kind": "StringLiteral",
-      "offset": 1312,
-      "length": 4,
-      "value": "\"iubenda.Cons\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
@@ -20968,13 +21099,6 @@
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
-      "offset": 1614,
-      "length": 8,
-      "value": "\"iubenda.TCF2Data\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
-      "kind": "StringLiteral",
       "offset": 3581,
       "length": 2,
       "value": "\"\""
@@ -20985,41 +21109,6 @@
       "offset": 3635,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
-      "kind": "StringLiteral",
-      "offset": 3512,
-      "length": 16,
-      "value": "\"iubenda.TCF2DataConsents\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
-      "kind": "StringLiteral",
-      "offset": 4154,
-      "length": 4,
-      "value": "\"iubenda.Uspr\""
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 221,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 238,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
-      "kind": "IntegerLiteral",
-      "offset": 258,
-      "length": 1,
-      "value": "2"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
@@ -21176,6 +21265,223 @@
       "value": "3000"
     },
     {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 1082,
+      "value": "\"csVersion = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1497,
+      "length": 11,
+      "value": "\"\ngdprEnabled = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1534,
+      "length": 12,
+      "value": "\"\nforceConsent = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1573,
+      "length": 9,
+      "value": "\"\ngoogleAds = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
+      "length": 11,
+      "value": "\"\napplyStyles = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1643,
+      "length": 17,
+      "value": "\"\nacceptIfDismissed = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1692,
+      "length": 24,
+      "value": "\"\npreventDismissWhenLoaded = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1755,
+      "length": 21,
+      "value": "\"\nskipNoticeWhenOffline = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1812,
+      "length": 6,
+      "value": "\"\nsiteId = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1839,
+      "length": 14,
+      "value": "\"\ncookiePolicyId = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1882,
+      "length": 6,
+      "value": "\"\ncssUrl = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1909,
+      "length": 7,
+      "value": "\"\ncssFile = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1941,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1947,
+      "length": 10,
+      "value": "\"\ncssContent = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1985,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 1991,
+      "length": 8,
+      "value": "\"\njsonFile = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2025,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2031,
+      "length": 11,
+      "value": "\"\njsonContent = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2071,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2077,
+      "length": 12,
+      "value": "\"\ndismissColor = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2132,
+      "length": 5,
+      "value": "\"nil\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2138,
+      "length": 14,
+      "value": "\"\nbannerPosition = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2181,
+      "length": 13,
+      "value": "\"\nportraitWidth = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 14,
+      "value": "\"\nportraitHeight = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2265,
+      "length": 14,
+      "value": "\"\nlandscapeWidth = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2308,
+      "length": 15,
+      "value": "\"\nlandscapeHeight = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2353,
+      "length": 12,
+      "value": "\"\nisFullScreen = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2392,
+      "length": 8,
+      "value": "\"\nproxyUrl = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2423,
+      "length": 17,
+      "value": "\"\nfatalErrorTimeout = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2472,
+      "length": 22,
+      "value": "\"\nautomaticHandlingOfAtt = \""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "kind": "StringLiteral",
+      "offset": 2531,
+      "length": 12,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 214,
@@ -21262,14 +21568,7 @@
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 1994,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2020,
+      "offset": 5004,
       "length": 1,
       "value": "1"
     }

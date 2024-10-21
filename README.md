@@ -1,21 +1,43 @@
+# How to Test the Demo
+- Download the repository on your machine
+- Install XCode from [AppStore](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+- Open Iubenda.xcworkspace in XCode
+- Select a virtual or physical device on the top left within the "demo_swift" submenu
+- Press the RUN button
+- Running on a real devices requires a (free) developer account
+- Configuration can be modified in file AppDelegate.m
+
+![Run button](readme_img1.png)
+
+# How to build release Framework
+
+- Run `build-framework.sh <version name>`
+- The script will produce the final zip in the `output` folder and the Cocoapod specs file, the zip file is also copied in the 
+libraries repository specified by the IUBENDA_IOS_REPO environment variable
+- The first time, initialize the cocoapod repository with `pod repo add iubenda https://github.com/iubenda/cocoapods.git`
+- Run `publish-spec.sh` to add the new podspec to the specs repository
+- Commit and push the libraries repository 
+
 # Developer's Guide
 
 
 ## Add the Iubenda SDK to your project
 
+To add the Iubenda SDK to your project, you can either:
+- Import _iubenda.xcframework_ in your project
 - Use Cocoapods, with the following configuration
 ```
 platform :ios, '10.0'
 source "https://github.com/iubenda/cocoapods.git"
 target 'MyApp' do
   use_frameworks!
-  pod 'IubendaMobileSDK', '2.7.1'
+  pod 'IubendaMobileSDK', '2.8.3'
 end
 ```
 
 To automatically update the library version with pod update, you can set the dependency as:
-- `'IubendaMobileSDK', '~> 2.7.1'` for trivial updates
-- `'IubendaMobileSDK', '~> 2.7'` for minor updates
+- `'IubendaMobileSDK', '~> 2.8.3'` for trivial updates
+- `'IubendaMobileSDK', '~> 2.8'` for minor updates
 - `'IubendaMobileSDK'` for all updates
 
 To use the library in your code:
@@ -35,6 +57,7 @@ config.applyStyles = true
 config.cssFile = Bundle.main.path(forResource: "custom_style", ofType: "css")
 config.jsonFile = Bundle.main.path(forResource: "config", ofType: "json")
 config.bannerPosition = BannerPosition.TOP
+config.fatalErrorTimeout = 5000
 IubendaCMP.initialize(with: config)
 ```
 
@@ -65,7 +88,12 @@ IubendaCMP.initialize(with: config)
 |portraitHeight|Integer|Set custom height for the first layer in portrait mode|
 |portraitWidth|Integer|Set custom width for the first layer in portrait mode|
 |automaticHandlingOfAtt|false|If true, SDK will handle the ATT on iOS automatically|
-
+|isFullScreen|false|Set full width and height for all layers|
+|fatalErrorTimeout|Integer|Set timeout to get fatal error (default 3000 ms)|
+|invalidateConsentInterval|Date(dd/MM/yyyy - yyyy/MM/dd - dd-MM-yyyy - yyyy-MM-dd - dd.MM.yyyy -
+yyyy.MM.dd)|Accepts a startDate and endDate, and if valued, it should check if there is a preference already
+expressed, and if there is and the timestamp is between configured dates then it
+should not consider the preference anymore|
 
 
 ## Show the consent UI
@@ -75,6 +103,8 @@ IubendaCMP.initialize(with: config)
 | askConsent()      |Presents the consent UI at app launch|
 | openPreferences() |Allow users to change their consent preferences when consent has already been given. Otherwise, it opens the consent request|
 | clearData()       |Removes all CMP data from local storage|
+| openPreferences(Context context, ArrayList<Integer> purposes) | Opens the consent request with some purposes selected|
+
 
 To present the consent UI at app launch, call `IubendaCMP.askConsent(from: self)` from your main ViewController’s `viewDidLoad` method:
 
@@ -116,6 +146,7 @@ You can use a custom UI to ask for user consent, without showing the provided po
 | canOpenPreferences()        |returns true if there is a saved preferences|
 | requestAttConsent()         |Opens ATT system-permission alert. If user rejects tracking, then clearing the preferences on device|
 | getATTStatus()              |returns the users ATT status which will be Accepted or Denied. Note that .denied, .notDetermined, .restricted statuses|
+| setStorePreferences()       |Sets the custom consent in background|
 
 When using a `open*` method, you can use the notification observer (see below) to detect when the user has given consent.
 
@@ -170,6 +201,7 @@ You can access to the IAB settings, such as the encoded consent string, either d
 |isPurposeConsentGivenFor(id)|Returns whether the consent was given for the passed purpose id|
 |isVendorConsentGivenFor(id)|Returns whether the consent was given for the passed vendor id|
 |consentTimestamp|Returns the timestamp of the consent (since v1.3.2)|
+|getGoogleAdditionalConsent()|Returns google addtlConsent data|
 
 ## Listening for changes
 
@@ -259,6 +291,5 @@ The library requires an internet connection to display the consent popup, hence 
 
 By default, the `askConsent` method checks for internet connection before launching the popup activity, so, if there is no connection, the popup is not shown, but will be presented on the next launch.
 If an error occurs during the consent flow, instead, an error message is shown with the option to retry or close the popup. In this case, setting `forceConsent=true` ensures that the popup will be presented again if no consent has been given.
-
 
 

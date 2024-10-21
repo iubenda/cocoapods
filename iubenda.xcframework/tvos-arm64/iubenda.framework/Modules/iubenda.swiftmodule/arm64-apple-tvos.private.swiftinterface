@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-tvos10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name iubenda
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AppTrackingTransparency
 import Foundation
 import Swift
@@ -470,6 +471,7 @@ extension Foundation.NSNotification.Name {
   public class func setUserPreferences(userPreferences: iubenda.UserPreferences?, callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> ())
   public class func getUserPreferences() -> iubenda.UserPreferences
   public class func shouldGetConsentForInvalidateConsentBefore() -> Swift.Bool
+  public class func shouldGetConsentForInvalidateConsentInterval() -> Swift.Bool
   public class func isPreferenceExpressed() -> Swift.Bool
   @objc public class func canOpenPreferences() -> Swift.Bool
   @objc override dynamic public init()

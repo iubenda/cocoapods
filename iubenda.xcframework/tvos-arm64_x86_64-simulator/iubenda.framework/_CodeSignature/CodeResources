@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/iubenda-Swift.h</key>
 		<data>
-		xXNI9OXrV6TYMPduz1htxYCP3Q0=
+		NimniABlNAJq0BXoIc4s1QVMfpQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f1WySqasu360wBAhRHyec9q/QkI=
+		+TzYz6Bhaj3S/uqQn0hlUf8Q++8=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		ExDLdqjCsuRWRCUAX95ApxHBkZE=
+		Fd8h3cR8I0zJbrYzzqDOK5NvRBk=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		t8MdRPecq/jTagDmyBQMY2Ze1ho=
+		bxw747Uzb9++Cit0Ab5iJ5lU4vI=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		y9Bzla8rmWmTHXGXc1/aYQIoN5I=
+		BQKlbWoTDurcw2iGk+lB5ZxGjt4=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		t8MdRPecq/jTagDmyBQMY2Ze1ho=
+		bxw747Uzb9++Cit0Ab5iJ5lU4vI=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		U7SjMRe87zIWnkPZX5Nsy3RKtPA=
+		z3wp5LxzWIFCsM8I7MhVGRINQ1k=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		ExDLdqjCsuRWRCUAX95ApxHBkZE=
+		Fd8h3cR8I0zJbrYzzqDOK5NvRBk=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		0nV5VU+syfGWueIRsf0LQlNh2tg=
+		gKgKnOqukaZS1a/F/HApeqeFU60=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		HdXl94w6SkawZUz6WJC5dkTqJ58=
+		rBU46SvkDT7bIv2yQ9aj8jQnrhY=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		0nV5VU+syfGWueIRsf0LQlNh2tg=
+		gKgKnOqukaZS1a/F/HApeqeFU60=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		LlUUUQDggeJAEDzg1YfkzUHiyxY=
+		ROIvfGVPFOdIV+B6wfs35npR4IM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,121 +71,121 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xXNI9OXrV6TYMPduz1htxYCP3Q0=
+			NimniABlNAJq0BXoIc4s1QVMfpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			JmiZ4c9dunqeb9tyhaiiSR13wgqDizagUcEhyzuwHiE=
+			RtnduScU73Lq0QnrAYIGmrI4qtBH4Oevoz5ztoCT0z0=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ExDLdqjCsuRWRCUAX95ApxHBkZE=
+			Fd8h3cR8I0zJbrYzzqDOK5NvRBk=
 			</data>
 			<key>hash2</key>
 			<data>
-			+KGW25ddsC8GQIWOy3wKUXeCBWmtn/j58VSLcwrmHXM=
+			wK9yULQ06tWFT1IF8eLRT+Xo6+3dWq/vb0E/fCaswR4=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t8MdRPecq/jTagDmyBQMY2Ze1ho=
+			bxw747Uzb9++Cit0Ab5iJ5lU4vI=
 			</data>
 			<key>hash2</key>
 			<data>
-			WM+uy07QeAvPpU2WvFwSD4GFWkkr1cj0A+0NhFBWCJo=
+			bDLx/XqS+rZ4ULz5FJlkXXtQMfp07E2l796XIxXcPzk=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y9Bzla8rmWmTHXGXc1/aYQIoN5I=
+			BQKlbWoTDurcw2iGk+lB5ZxGjt4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XhEWR/Qp0wWpJ2xtfeI8Z4zOi4lEhi5gPxoLhubqpoA=
+			vD+oTiQjgR1cXsEzfMRd/pEdQhxCiPkOG0l+VDB0mSg=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t8MdRPecq/jTagDmyBQMY2Ze1ho=
+			bxw747Uzb9++Cit0Ab5iJ5lU4vI=
 			</data>
 			<key>hash2</key>
 			<data>
-			WM+uy07QeAvPpU2WvFwSD4GFWkkr1cj0A+0NhFBWCJo=
+			bDLx/XqS+rZ4ULz5FJlkXXtQMfp07E2l796XIxXcPzk=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U7SjMRe87zIWnkPZX5Nsy3RKtPA=
+			z3wp5LxzWIFCsM8I7MhVGRINQ1k=
 			</data>
 			<key>hash2</key>
 			<data>
-			M0d/2T69+QKrQ5A5XRYVTPnR4YeIy0tB9vNILcmQr00=
+			STBZtW7h3MGm2+D9Bw4lF0w4SHRrb+T3507J1XGUP1A=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ExDLdqjCsuRWRCUAX95ApxHBkZE=
+			Fd8h3cR8I0zJbrYzzqDOK5NvRBk=
 			</data>
 			<key>hash2</key>
 			<data>
-			+KGW25ddsC8GQIWOy3wKUXeCBWmtn/j58VSLcwrmHXM=
+			wK9yULQ06tWFT1IF8eLRT+Xo6+3dWq/vb0E/fCaswR4=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0nV5VU+syfGWueIRsf0LQlNh2tg=
+			gKgKnOqukaZS1a/F/HApeqeFU60=
 			</data>
 			<key>hash2</key>
 			<data>
-			7ODvGFtxpq1sBKMFps14gKHj33D7kVbgI3xwWxXPaRw=
+			hUpc8BIf2nRwi6M+aSCP9kFu7+XJgAMrAkkAQw09LBs=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HdXl94w6SkawZUz6WJC5dkTqJ58=
+			rBU46SvkDT7bIv2yQ9aj8jQnrhY=
 			</data>
 			<key>hash2</key>
 			<data>
-			yhFPXWtxAsOiAziB+H91PzbHQApK1fnJdHE6UdHkPmM=
+			HQiS80qfK/PpB+4jrkMIX62OxwAv7zgnYfElWlpeAj8=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0nV5VU+syfGWueIRsf0LQlNh2tg=
+			gKgKnOqukaZS1a/F/HApeqeFU60=
 			</data>
 			<key>hash2</key>
 			<data>
-			7ODvGFtxpq1sBKMFps14gKHj33D7kVbgI3xwWxXPaRw=
+			hUpc8BIf2nRwi6M+aSCP9kFu7+XJgAMrAkkAQw09LBs=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LlUUUQDggeJAEDzg1YfkzUHiyxY=
+			ROIvfGVPFOdIV+B6wfs35npR4IM=
 			</data>
 			<key>hash2</key>
 			<data>
-			UvDR7YRaSMS4p5vW08dO0DzeR1FoQgWSPtxKoNO+acY=
+			botbxFKga/mTP0LpLnzJbejEnpp5b649aHp8nN6B70s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
