@@ -20938,8 +20938,7 @@
             "static": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
+              "HasStorage"
             ],
             "isFromExtension": true,
             "isLet": true,
@@ -20960,6 +20959,54 @@
                 "declKind": "Accessor",
                 "usr": "s:So18NSNotificationNamea7iubendaE21OnPreferenceExpressedABvgZ",
                 "mangledName": "$sSo18NSNotificationNamea7iubendaE21OnPreferenceExpressedABvgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnPopupClosed",
+            "printedName": "OnPopupClosed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea7iubendaE13OnPopupClosedABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea7iubendaE13OnPopupClosedABvpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea7iubendaE13OnPopupClosedABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea7iubendaE13OnPopupClosedABvgZ",
                 "moduleName": "iubenda",
                 "static": true,
                 "implicit": true,
@@ -21483,7 +21530,6 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "RawDocComment",
               "ObjC"
             ],
             "isFromExtension": true,
@@ -21505,6 +21551,60 @@
                 "declKind": "Accessor",
                 "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cm)OnPreferenceExpressed",
                 "mangledName": "$sSo14NSNotificationC7iubendaE21OnPreferenceExpressedSo0A4NameavgZ",
+                "moduleName": "iubenda",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "OnPopupClosed",
+            "printedName": "OnPopupClosed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cpy)OnPopupClosed",
+            "mangledName": "$sSo14NSNotificationC7iubendaE13OnPopupClosedSo0A4NameavpZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@iubenda@@objc(cs)NSNotification(cm)OnPopupClosed",
+                "mangledName": "$sSo14NSNotificationC7iubendaE13OnPopupClosedSo0A4NameavgZ",
                 "moduleName": "iubenda",
                 "static": true,
                 "implicit": true,
@@ -21612,1337 +21712,1344 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
       "kind": "BooleanLiteral",
       "offset": 199,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
       "kind": "StringLiteral",
       "offset": 410,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/StorePreferencesConsentTask.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/StorePreferencesConsentTask.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 18,
       "value": "\"storePreferences\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/StorePreferencesConsentTask.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/StorePreferencesConsentTask.swift",
       "kind": "BooleanLiteral",
       "offset": 459,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
       "kind": "IntegerLiteral",
       "offset": 162,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
       "kind": "IntegerLiteral",
       "offset": 179,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 204,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 251,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 308,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 1365,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 1404,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 1680,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "IntegerLiteral",
       "offset": 1728,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "IntegerLiteral",
       "offset": 1764,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "IntegerLiteral",
       "offset": 1805,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 1914,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 1969,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 2024,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 2073,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 2235,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 2338,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 2398,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 3581,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 3635,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 214,
       "length": 35,
       "value": "\"IubendaConsentChangedNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 304,
       "length": 36,
       "value": "\"IubendaOnStartupFailedNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 387,
       "length": 28,
       "value": "\"IubendaOnErrorNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 467,
       "length": 33,
       "value": "\"IubendaOnFatalErrorNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 547,
       "length": 28,
       "value": "\"IubendaOnReadyNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 34,
       "value": "\"IubendaOnBannerShownNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 36,
       "value": "\"IubendaOn2ndLayerShownNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
-      "offset": 929,
+      "offset": 814,
       "length": 42,
       "value": "\"IubendaOnPreferenceExpressedNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 34,
+      "value": "\"IubendaOnPopupClosedNotification\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 1711,
+      "offset": 1659,
       "length": 3,
       "value": "123"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 1864,
+      "offset": 1812,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 1994,
+      "offset": 1942,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 2020,
+      "offset": 1968,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 5004,
+      "offset": 4952,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 192,
       "length": 9,
       "value": "\"current\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 243,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 291,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 335,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 382,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 435,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 495,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 552,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 595,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 644,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 685,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1016,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1062,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1108,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1155,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1200,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1238,
       "length": 39,
       "value": "\"https:\/\/cdn.iubenda.com\/cs\/mobile.htm\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1330,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1382,
       "length": 4,
       "value": "3000"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1461,
       "length": 1082,
       "value": "\"csVersion = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1497,
       "length": 11,
       "value": "\"\ngdprEnabled = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1534,
       "length": 12,
       "value": "\"\nforceConsent = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1573,
       "length": 9,
       "value": "\"\ngoogleAds = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1606,
       "length": 11,
       "value": "\"\napplyStyles = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1643,
       "length": 17,
       "value": "\"\nacceptIfDismissed = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1692,
       "length": 24,
       "value": "\"\npreventDismissWhenLoaded = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1755,
       "length": 21,
       "value": "\"\nskipNoticeWhenOffline = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1812,
       "length": 6,
       "value": "\"\nsiteId = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1839,
       "length": 14,
       "value": "\"\ncookiePolicyId = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1882,
       "length": 6,
       "value": "\"\ncssUrl = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1909,
       "length": 7,
       "value": "\"\ncssFile = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1941,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1947,
       "length": 10,
       "value": "\"\ncssContent = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1985,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1991,
       "length": 8,
       "value": "\"\njsonFile = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2025,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2031,
       "length": 11,
       "value": "\"\njsonContent = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2071,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2077,
       "length": 12,
       "value": "\"\ndismissColor = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2132,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2138,
       "length": 14,
       "value": "\"\nbannerPosition = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2181,
       "length": 13,
       "value": "\"\nportraitWidth = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2222,
       "length": 14,
       "value": "\"\nportraitHeight = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2265,
       "length": 14,
       "value": "\"\nlandscapeWidth = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2308,
       "length": 15,
       "value": "\"\nlandscapeHeight = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2353,
       "length": 12,
       "value": "\"\nisFullScreen = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2392,
       "length": 8,
       "value": "\"\nproxyUrl = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2423,
       "length": 17,
       "value": "\"\nfatalErrorTimeout = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2472,
       "length": 22,
       "value": "\"\nautomaticHandlingOfAtt = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2531,
       "length": 12,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 25,
       "value": "\"IubendaCMP_PendingTask_\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 24,
       "value": "\"IubendaCMP_Preferences\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 25,
       "value": "\"IubendaCMP_ConsentShown\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 17,
       "value": "\"IABTCF_CmpSdkID\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 22,
       "value": "\"IABTCF_CmpSdkVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 17,
       "value": "\"IABTCF_TCString\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 20,
       "value": "\"IABTCF_gdprApplies\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 414,
       "length": 23,
       "value": "\"IABTCF_VendorConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 483,
       "length": 24,
       "value": "\"IABTCF_PurposeConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 22,
       "value": "\"IABTCF_PolicyVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 613,
       "length": 20,
       "value": "\"IABTCF_PublisherCC\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 673,
       "length": 28,
       "value": "\"IABTCF_PurposeOneTreatment\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 748,
       "length": 29,
       "value": "\"IABTCF_UseNonStandardStacks\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 823,
       "length": 28,
       "value": "\"IABTCF_UseNonStandardTexts\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 34,
       "value": "\"IABTCF_VendorLegitimateInterests\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 994,
       "length": 35,
       "value": "\"IABTCF_PurposeLegitimateInterests\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1074,
       "length": 30,
       "value": "\"IABTCF_SpecialFeaturesOptIns\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1160,
       "length": 30,
       "value": "\"IABTCF_PublisherRestrictions\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1236,
       "length": 25,
       "value": "\"IABTCF_PublisherConsent\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1318,
       "length": 37,
       "value": "\"IABTCF_PublisherLegitimateInterests\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1408,
       "length": 40,
       "value": "\"IABTCF_PublisherCustomPurposesConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1519,
       "length": 51,
       "value": "\"IABTCF_PublisherCustomPurposesLegitimateInterests\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1621,
       "length": 34,
       "value": "\"IubendaCMP_GoogleADsPersonalized\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1701,
       "length": 30,
       "value": "\"IubendaCMP_Consent_Timestamp\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1773,
       "length": 21,
       "value": "\"IABTCF_AddtlConsent\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1848,
       "length": 36,
       "value": "\"IABTCF_EnableAdvertiserConsentMode\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1949,
       "length": 32,
       "value": "\"IubendaCMP_CustomUi_gvlVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2026,
       "length": 29,
       "value": "\"IubendaCMP_CustomUi_Version\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2095,
       "length": 24,
       "value": "\"IubendaCMP_CustomUi_Id\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2185,
       "length": 50,
       "value": "\"IubendaCMP_CustomUi_PublisherPurposeRestrictions\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2287,
       "length": 36,
       "value": "\"IubendaCMP_CustomUi_VendorConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2376,
       "length": 37,
       "value": "\"IubendaCMP_CustomUi_PurposeConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2471,
       "length": 42,
       "value": "\"IubendaCMP_CustomUi_SpecialFeatureOptins\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 26,
       "value": "\"IABConsent_SubjectToGDPR\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 26,
       "value": "\"IABConsent_ConsentString\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 33,
       "value": "\"IABConsent_ParsedVendorConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 34,
       "value": "\"IABConsent_ParsedPurposeConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 491,
       "length": 23,
       "value": "\"IABConsent_CMPPresent\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 34,
       "value": "\"IubendaCMP_GoogleADsPersonalized\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 30,
       "value": "\"IubendaCMP_Consent_Timestamp\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 32,
       "value": "\"IubendaCMP_CustomUi_gvlVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 821,
       "length": 29,
       "value": "\"IubendaCMP_CustomUi_Version\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 890,
       "length": 24,
       "value": "\"IubendaCMP_CustomUi_Id\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 980,
       "length": 50,
       "value": "\"IubendaCMP_CustomUi_PublisherPurposeRestrictions\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 1082,
       "length": 36,
       "value": "\"IubendaCMP_CustomUi_VendorConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 1171,
       "length": 37,
       "value": "\"IubendaCMP_CustomUi_PurposeConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 1266,
       "length": 42,
       "value": "\"IubendaCMP_CustomUi_SpecialFeatureOptins\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/RejectConsentTask.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/RejectConsentTask.swift",
       "kind": "StringLiteral",
       "offset": 271,
       "length": 8,
       "value": "\"reject\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/RejectConsentTask.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/RejectConsentTask.swift",
       "kind": "BooleanLiteral",
       "offset": 488,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/AcceptConsentTask.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/AcceptConsentTask.swift",
       "kind": "StringLiteral",
       "offset": 182,
       "length": 8,
       "value": "\"accept\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/AcceptConsentTask.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/AcceptConsentTask.swift",
       "kind": "BooleanLiteral",
       "offset": 399,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
       "kind": "StringLiteral",
       "offset": 575,
       "length": 74,
       "value": "\"New Consent String Value is not base64 decodable. Throwing away changes.\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
       "kind": "IntegerLiteral",
       "offset": 1894,
       "length": 3,
       "value": "132"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
       "kind": "IntegerLiteral",
       "offset": 1926,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
       "kind": "IntegerLiteral",
       "offset": 3303,
       "length": 3,
       "value": "173"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
       "kind": "IntegerLiteral",
       "offset": 3351,
       "length": 3,
       "value": "173"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 471,
       "length": 25,
       "value": "\"gvlSpecificationVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 530,
       "length": 19,
       "value": "\"vendorListVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 582,
       "length": 18,
       "value": "\"tcfPolicyVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 13,
       "value": "\"lastUpdated\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 9,
       "value": "\"vendors\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 2953,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 2978,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3009,
       "length": 10,
       "value": "\"purposes\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3050,
       "length": 16,
       "value": "\"legIntPurposes\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3099,
       "length": 18,
       "value": "\"flexiblePurposes\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3149,
       "length": 17,
       "value": "\"specialPurposes\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3191,
       "length": 10,
       "value": "\"features\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3233,
       "length": 17,
       "value": "\"specialFeatures\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3276,
       "length": 11,
       "value": "\"policyUrl\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3323,
       "length": 21,
       "value": "\"cookieMaxAgeSeconds\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3372,
       "length": 13,
       "value": "\"usesCookies\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3415,
       "length": 15,
       "value": "\"cookieRefresh\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3466,
       "length": 21,
       "value": "\"usesNonCookieAccess\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3530,
       "length": 28,
       "value": "\"deviceStorageDisclosureUrl\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3586,
       "length": 13,
       "value": "\"deletedDate\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Utils\/HexColor.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Utils\/HexColor.swift",
       "kind": "FloatLiteral",
       "offset": 168,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Presentation\/CMPConsentViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Presentation\/CMPConsentViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 430,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Presentation\/CMPConsentViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Presentation\/CMPConsentViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 908,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Presentation\/CMPConsentViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Presentation\/CMPConsentViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 944,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/TaskManager.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/TaskManager.swift",
       "kind": "Array",
       "offset": 144,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "StringLiteral",
       "offset": 251,
       "length": 12,
       "value": "\"consent:\/\/\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 412,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 452,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 494,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1034,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1129,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1145,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1200,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "StringLiteral",
       "offset": 1259,
       "length": 7,
       "value": "\"param\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "StringLiteral",
       "offset": 1268,
       "length": 39,
       "value": "\"jsReady event is not triggered after \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "StringLiteral",
       "offset": 1350,
       "length": 15,
       "value": "\" milliseconds\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 258,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
       "kind": "IntegerLiteral",
       "offset": 136,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
       "kind": "IntegerLiteral",
       "offset": 153,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
       "kind": "IntegerLiteral",
       "offset": 170,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UserPreferences.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UserPreferences.swift",
       "kind": "BooleanLiteral",
       "offset": 350,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
       "kind": "IntegerLiteral",
       "offset": 134,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
       "kind": "IntegerLiteral",
       "offset": 151,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/iubenda projects\/IUBENDA IOS\/IubendaCMP\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
       "kind": "IntegerLiteral",
       "offset": 168,
       "length": 1,

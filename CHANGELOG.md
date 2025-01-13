@@ -1,5 +1,9 @@
 # Changelog
 
+### v2.8.5
+- Added onPopupClosed to IubendaCMPCallback
+- Bugfix for preventDismissWhenLoaded
+
 ### v2.8.4
 - Added invalidateConsentInterval
 

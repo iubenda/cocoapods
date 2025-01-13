@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-tvos10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name iubenda
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AppTrackingTransparency
@@ -423,6 +423,7 @@ extension Foundation.NSNotification.Name {
   public static let OnBannerShown: Foundation.NSNotification.Name
   public static let On2ndLayerShown: Foundation.NSNotification.Name
   public static let OnPreferenceExpressed: Foundation.NSNotification.Name
+  public static let OnPopupClosed: Foundation.NSNotification.Name
 }
 @objc extension Foundation.NSNotification {
   @objc public static let ConsentChanged: Foundation.NSNotification.Name
@@ -433,6 +434,7 @@ extension Foundation.NSNotification.Name {
   @objc public static let OnBannerShown: Foundation.NSNotification.Name
   @objc public static let On2ndLayerShown: Foundation.NSNotification.Name
   @objc public static let OnPreferenceExpressed: Foundation.NSNotification.Name
+  @objc public static let OnPopupClosed: Foundation.NSNotification.Name
 }
 @_inheritsConvenienceInitializers @objc public class IubendaCMP : ObjectiveC.NSObject {
   @objc public enum ATTStatus : Swift.Int {
