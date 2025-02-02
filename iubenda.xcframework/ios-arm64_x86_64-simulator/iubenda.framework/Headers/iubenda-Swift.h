@@ -409,6 +409,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <CMPStora
 + (Preferences * _Nonnull)getPreferences SWIFT_WARN_UNUSED_RESULT;
 + (StorePreferences * _Nonnull)getStorePreferences SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nullable)getRand SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nullable)getPreferenceId SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nullable)getConsentRecordId SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nonnull)getGoogleAdditionalConsent SWIFT_WARN_UNUSED_RESULT;
 + (BOOL)getEnableAdvertiserConsentMode SWIFT_WARN_UNUSED_RESULT;
@@ -606,7 +607,7 @@ SWIFT_PROTOCOL("_TtP7iubenda25WebViewControllerDelegate_")
 - (void)onLargePopup;
 - (void)onSmallPopup;
 - (void)onCSReady;
-- (void)onCplSaved;
+- (void)onCplSavedWithPreferenceId:(NSString * _Nonnull)preferenceId;
 - (void)onNavigationStart;
 - (void)onNavigationFinish;
 @end
@@ -1030,6 +1031,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <CMPStora
 + (Preferences * _Nonnull)getPreferences SWIFT_WARN_UNUSED_RESULT;
 + (StorePreferences * _Nonnull)getStorePreferences SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nullable)getRand SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nullable)getPreferenceId SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nullable)getConsentRecordId SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nonnull)getGoogleAdditionalConsent SWIFT_WARN_UNUSED_RESULT;
 + (BOOL)getEnableAdvertiserConsentMode SWIFT_WARN_UNUSED_RESULT;
@@ -1227,7 +1229,7 @@ SWIFT_PROTOCOL("_TtP7iubenda25WebViewControllerDelegate_")
 - (void)onLargePopup;
 - (void)onSmallPopup;
 - (void)onCSReady;
-- (void)onCplSaved;
+- (void)onCplSavedWithPreferenceId:(NSString * _Nonnull)preferenceId;
 - (void)onNavigationStart;
 - (void)onNavigationFinish;
 @end

@@ -8933,17 +8933,23 @@
           {
             "kind": "Function",
             "name": "onCplSaved",
-            "printedName": "onCplSaved()",
+            "printedName": "onCplSaved(preferenceId:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@iubenda@objc(pl)WebViewControllerDelegate(im)onCplSaved",
-            "mangledName": "$s7iubenda25WebViewControllerDelegateP10onCplSavedyyF",
+            "usr": "c:@M@iubenda@objc(pl)WebViewControllerDelegate(im)onCplSavedWithPreferenceId:",
+            "mangledName": "$s7iubenda25WebViewControllerDelegateP10onCplSaved12preferenceIdySS_tF",
             "moduleName": "iubenda",
             "genericSig": "<τ_0_0 where τ_0_0 : iubenda.WebViewControllerDelegate>",
             "sugared_genericSig": "<Self where Self : iubenda.WebViewControllerDelegate>",
@@ -18885,6 +18891,37 @@
           },
           {
             "kind": "Function",
+            "name": "getPreferenceId",
+            "printedName": "getPreferenceId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iubenda@objc(cs)IubendaCMP(cm)getPreferenceId",
+            "mangledName": "$s7iubenda10IubendaCMPC15getPreferenceIdSSSgyFZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getSaleOptOut",
             "printedName": "getSaleOptOut()",
             "children": [
@@ -20649,6 +20686,13 @@
       "offset": 325,
       "length": 25,
       "value": "\"IubendaCMP_ConsentShown\""
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 25,
+      "value": "\"IubendaCMP_PreferenceId\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",

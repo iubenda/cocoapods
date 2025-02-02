@@ -283,7 +283,7 @@ public enum ConsentStringError : Swift.Error {
   @objc func onLargePopup()
   @objc func onSmallPopup()
   @objc func onCSReady()
-  @objc func onCplSaved()
+  @objc func onCplSaved(preferenceId: Swift.String)
   @objc func onNavigationStart()
   @objc func onNavigationFinish()
 }
@@ -465,6 +465,7 @@ extension Foundation.NSNotification.Name {
   @objc public class func getPreferences() -> iubenda.Preferences
   @objc public class func getStorePreferences() -> iubenda.StorePreferences
   @objc public class func getRand() -> Swift.String?
+  @objc public class func getPreferenceId() -> Swift.String?
   public class func getSaleOptOut() -> iubenda.UsprOptOut?
   @objc public class func getConsentRecordId() -> Swift.String?
   @objc public class func getGoogleAdditionalConsent() -> Swift.String

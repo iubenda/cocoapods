@@ -5439,17 +5439,23 @@
           {
             "kind": "Function",
             "name": "onCplSaved",
-            "printedName": "onCplSaved()",
+            "printedName": "onCplSaved(preferenceId:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@iubenda@objc(pl)WebViewControllerDelegate(im)onCplSaved",
-            "mangledName": "$s7iubenda25WebViewControllerDelegateP10onCplSavedyyF",
+            "usr": "c:@M@iubenda@objc(pl)WebViewControllerDelegate(im)onCplSavedWithPreferenceId:",
+            "mangledName": "$s7iubenda25WebViewControllerDelegateP10onCplSaved12preferenceIdySS_tF",
             "moduleName": "iubenda",
             "genericSig": "<τ_0_0 where τ_0_0 : iubenda.WebViewControllerDelegate>",
             "sugared_genericSig": "<Self where Self : iubenda.WebViewControllerDelegate>",
@@ -6663,6 +6669,37 @@
             "declKind": "Func",
             "usr": "c:@M@iubenda@objc(cs)IubendaCMP(cm)getRand",
             "mangledName": "$s7iubenda10IubendaCMPC7getRandSSSgyFZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPreferenceId",
+            "printedName": "getPreferenceId()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@iubenda@objc(cs)IubendaCMP(cm)getPreferenceId",
+            "mangledName": "$s7iubenda10IubendaCMPC15getPreferenceIdSSSgyFZ",
             "moduleName": "iubenda",
             "static": true,
             "declAttributes": [
@@ -22363,6 +22400,13 @@
       "value": "\"IubendaCMP_ConsentShown\""
     },
     {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 25,
+      "value": "\"IubendaCMP_PreferenceId\""
+    },
+    {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 170,
@@ -22939,49 +22983,56 @@
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1034,
+      "offset": 888,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1198,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1129,
+      "offset": 1293,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1145,
+      "offset": 1309,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1200,
+      "offset": 1364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1259,
+      "offset": 1423,
       "length": 7,
       "value": "\"param\""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1268,
+      "offset": 1432,
       "length": 39,
       "value": "\"jsReady event is not triggered after \""
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Client\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1350,
+      "offset": 1514,
       "length": 15,
       "value": "\" milliseconds\""
     },
