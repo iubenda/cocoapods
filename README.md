@@ -2,7 +2,6 @@
 ## Add the Iubenda SDK to your project
 
 To add the Iubenda SDK to your project, you can either:
-- Import _iubenda.xcframework_ in your project
 - Use Cocoapods, with the following configuration
 ```
 platform :ios, '10.0'
