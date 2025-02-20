@@ -1,25 +1,3 @@
-# How to Test the Demo
-- Download the repository on your machine
-- Install XCode from [AppStore](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
-- Open Iubenda.xcworkspace in XCode
-- Select a virtual or physical device on the top left within the "demo_swift" submenu
-- Press the RUN button
-- Running on a real devices requires a (free) developer account
-- Configuration can be modified in file AppDelegate.m
-
-![Run button](readme_img1.png)
-
-# How to build release Framework
-
-- Run `build-framework.sh <version name>`
-- The script will produce the final zip in the `output` folder and the Cocoapod specs file, the zip file is also copied in the 
-libraries repository specified by the IUBENDA_IOS_REPO environment variable
-- The first time, initialize the cocoapod repository with `pod repo add iubenda https://github.com/iubenda/cocoapods.git`
-- Run `publish-spec.sh` to add the new podspec to the specs repository
-- Commit and push the libraries repository 
-
-# Developer's Guide
-
 
 ## Add the Iubenda SDK to your project
 
