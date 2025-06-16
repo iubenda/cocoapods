@@ -8,12 +8,12 @@ platform :ios, '10.0'
 source "https://github.com/iubenda/cocoapods.git"
 target 'MyApp' do
   use_frameworks!
-  pod 'IubendaMobileSDK', '2.8.5'
+  pod 'IubendaMobileSDK', '2.8.9'
 end
 ```
 
 To automatically update the library version with pod update, you can set the dependency as:
-- `'IubendaMobileSDK', '~> 2.8.5'` for trivial updates
+- `'IubendaMobileSDK', '~> 2.8.9'` for trivial updates
 - `'IubendaMobileSDK', '~> 2.8'` for minor updates
 - `'IubendaMobileSDK'` for all updates
 

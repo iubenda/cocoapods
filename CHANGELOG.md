@@ -1,5 +1,14 @@
 # Changelog
 
+### v2.8.9
+- Added setMultiThread() method
+
+### v2.8.8
+- Bugfix
+
+### v2.8.6
+- Added getPreferenceId method for Cpl
+
 ### v2.8.5
 - Added onPopupClosed to IubendaCMPCallback
 - Bugfix for preventDismissWhenLoaded
