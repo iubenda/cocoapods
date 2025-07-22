@@ -1,5 +1,8 @@
 # Changelog
 
+### v2.9.0
+- Downgrade deployment target to 12.0
+
 ### v2.8.9
 - Added setMultiThread() method
 

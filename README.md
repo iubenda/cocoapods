@@ -4,17 +4,17 @@
 To add the Iubenda SDK to your project, you can either:
 - Use Cocoapods, with the following configuration
 ```
-platform :ios, '10.0'
+platform :ios, '12.0'
 source "https://github.com/iubenda/cocoapods.git"
 target 'MyApp' do
   use_frameworks!
-  pod 'IubendaMobileSDK', '2.8.9'
+  pod 'IubendaMobileSDK', '2.9.0'
 end
 ```
 
 To automatically update the library version with pod update, you can set the dependency as:
-- `'IubendaMobileSDK', '~> 2.8.9'` for trivial updates
-- `'IubendaMobileSDK', '~> 2.8'` for minor updates
+- `'IubendaMobileSDK', '~> 2.9.0'` for trivial updates
+- `'IubendaMobileSDK', '~> 2.9'` for minor updates
 - `'IubendaMobileSDK'` for all updates
 
 To use the library in your code:
