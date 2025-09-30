@@ -1,5 +1,8 @@
 # Changelog
 
+### v2.9.1
+- Native support for cookiePolicyInOtherWindow
+
 ### v2.9.0
 - Downgrade deployment target to 12.0
 
