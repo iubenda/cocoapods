@@ -404,9 +404,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <CMPStora
 + (NSString * _Nonnull)getPreferencesJson SWIFT_WARN_UNUSED_RESULT;
 + (Preferences * _Nonnull)getPreferences SWIFT_WARN_UNUSED_RESULT;
 + (StorePreferences * _Nonnull)getStorePreferences SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nullable)getRand SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nullable)getPreferenceId SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nullable)getConsentRecordId SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)getRand SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)getPreferenceId SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nullable)getConsentRecordId SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED;
 + (NSString * _Nonnull)getGoogleAdditionalConsent SWIFT_WARN_UNUSED_RESULT;
 + (BOOL)getEnableAdvertiserConsentMode SWIFT_WARN_UNUSED_RESULT;
 + (BOOL)canOpenPreferences SWIFT_WARN_UNUSED_RESULT;
@@ -1014,9 +1014,9 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) id <CMPStora
 + (NSString * _Nonnull)getPreferencesJson SWIFT_WARN_UNUSED_RESULT;
 + (Preferences * _Nonnull)getPreferences SWIFT_WARN_UNUSED_RESULT;
 + (StorePreferences * _Nonnull)getStorePreferences SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nullable)getRand SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nullable)getPreferenceId SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nullable)getConsentRecordId SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)getRand SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)getPreferenceId SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nullable)getConsentRecordId SWIFT_WARN_UNUSED_RESULT SWIFT_DEPRECATED;
 + (NSString * _Nonnull)getGoogleAdditionalConsent SWIFT_WARN_UNUSED_RESULT;
 + (BOOL)getEnableAdvertiserConsentMode SWIFT_WARN_UNUSED_RESULT;
 + (BOOL)canOpenPreferences SWIFT_WARN_UNUSED_RESULT;

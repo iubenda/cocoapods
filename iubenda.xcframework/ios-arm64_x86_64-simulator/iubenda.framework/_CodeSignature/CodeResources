@@ -6,19 +6,19 @@
 	<dict>
 		<key>Headers/iubenda-Swift.h</key>
 		<data>
-		rnytBX9ahKN4kLR552IKSy9gBlU=
+		GlTU5wcGI+b2HhLbYQQLZBViq3I=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		aB8C/CtfgjHxlCm7VmCWR8baOT8=
+		iAeSqjdOV7vnm0vErD2Ex9QCwqk=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vIjFnCXOCsuXCMWPVj3L1gg6cWc=
+		/4Oyy2dI0+CV/RSZFIKq76Cm3jk=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6+gg9ffOeIaY7kgwAQItcm6jYP4=
+		DwsWOhA7d3ziFccLaPDDNKLa8Qc=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6+gg9ffOeIaY7kgwAQItcm6jYP4=
+		DwsWOhA7d3ziFccLaPDDNKLa8Qc=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		k3DZr+7MYXXfxjjU1VqYpju4O08=
+		ddSQDSbkdF4nF6tihi9GFXDkfDA=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vIjFnCXOCsuXCMWPVj3L1gg6cWc=
+		/4Oyy2dI0+CV/RSZFIKq76Cm3jk=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xmDv5a7yMGZeVv9GpzmS2isEwN8=
+		09JrCtqxsOpAwIjlcF0RRNAY/WU=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xmDv5a7yMGZeVv9GpzmS2isEwN8=
+		09JrCtqxsOpAwIjlcF0RRNAY/WU=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VH1QLocag96XMHBDkxSatSPMpKc=
+		J+S1y8UmbMqW/2vwYoVaDtD+L8U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,21 +80,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B1t/QzF2R2oDSeIsY8P/einzbJC6HkZaSJq6ttTvNxw=
+			1nJxiSlpLsPKC/HycyDIJkbV1hiSTXn3LGbi7B8wS14=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yNd1Qey5b10zuQnfZLkt1aUWPas5TcrLKFOiMX+2HQQ=
+			gc7/UCxQE6n8EwsgeU8hnLNtce5q0kgRtR4HUNcBO/4=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4HxDNPXuQMQVp9CpiisAUXP7NvZYdAntDIqkjHhn+m8=
+			uiLoqTjspq2SJ3dobxjeaPU7IMR6WHjbb6kchEgmySM=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -108,28 +108,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4HxDNPXuQMQVp9CpiisAUXP7NvZYdAntDIqkjHhn+m8=
+			uiLoqTjspq2SJ3dobxjeaPU7IMR6WHjbb6kchEgmySM=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wyYw3knle5h/07c9ZYgG2CpnKpBfHw2/uaZ37FEIeyw=
+			izUabsL0nTjnE1EkGV7VKkKoo5AnTYiwWS91xTXt4ts=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yNd1Qey5b10zuQnfZLkt1aUWPas5TcrLKFOiMX+2HQQ=
+			gc7/UCxQE6n8EwsgeU8hnLNtce5q0kgRtR4HUNcBO/4=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			clxnfkC2J534xEqF26iwriZFS509EWp9n2rkO+px0T4=
+			xUBSK02lmn3gSIZQvFxO0tPXLNFpEuN7Ctgu/jSS2V4=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -143,14 +143,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			clxnfkC2J534xEqF26iwriZFS509EWp9n2rkO+px0T4=
+			xUBSK02lmn3gSIZQvFxO0tPXLNFpEuN7Ctgu/jSS2V4=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YXHktGspUtjHbcRjOHAGWn0w570Xpe+WM2lL9SBVJrE=
+			nB2dfTUBdkJa7nbxashI8TpPkMt4fqUGZSH2PNsHbiw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

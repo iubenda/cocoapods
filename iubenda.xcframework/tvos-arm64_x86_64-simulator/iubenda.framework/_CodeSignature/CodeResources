@@ -6,19 +6,19 @@
 	<dict>
 		<key>Headers/iubenda-Swift.h</key>
 		<data>
-		+HapO6Qx+1yVTQICyS8b4Pvw/Dc=
+		RuD6ZfLTvqCuLzPfp7TvAwYsHvs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8Z/wIHdW4ooxMKXzJU/h+MfXT8w=
+		5/rzAkFD11IlfveN/uWIsbfW/uQ=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		2DjNibwcQh4E3HPsVN5BgjSt6Gk=
+		/XbbQlTuq3neA4F8wZ9ZBWWsoqE=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		59WEXRwqvG0xkc+fxvinb57iYoo=
+		fjFDyY1tRkJEG9igtWP8xeubGBI=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		59WEXRwqvG0xkc+fxvinb57iYoo=
+		fjFDyY1tRkJEG9igtWP8xeubGBI=
 		</data>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		YosUa28z33z3s1kbU/5SjLEua9c=
+		57avAJu2UoSK784xEgHUvo2UtSc=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		2DjNibwcQh4E3HPsVN5BgjSt6Gk=
+		/XbbQlTuq3neA4F8wZ9ZBWWsoqE=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		KlisNvLW1ORPIoD8+XuvzHdg2oQ=
+		6bA31qCKDSNNOYecj5NmQ2uIuYI=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		KlisNvLW1ORPIoD8+XuvzHdg2oQ=
+		6bA31qCKDSNNOYecj5NmQ2uIuYI=
 		</data>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		P3ghp3GT6E2idFx9HyLrFjql/XY=
+		8N2TcEd38xbbRe/g6DmZpKTfKt0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,21 +71,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1apNGXiZsZdwENt9Ve5uMeZPLmrteExbyqSk7XESrGg=
+			0Fg5JG9b1kbRzWBWJsif80ILwZhYWfULIi7lr0UsHbw=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4gE0os62WsJtjVxjRxk3OiS+dElgsLsIyOjkcSBS4iY=
+			eD7/k4Fl5Hxqh/fHfpm+M9Nhi13HuHMDeBfcBw0+q5w=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wBhYGmEguKHeiWGmHKG9GDNC1I8ybJJBRyfjAPCtODs=
+			EscUL+LExK4UtYHJTWJOafHu42j7jBbkrf0UdjjAEXw=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
@@ -99,28 +99,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wBhYGmEguKHeiWGmHKG9GDNC1I8ybJJBRyfjAPCtODs=
+			EscUL+LExK4UtYHJTWJOafHu42j7jBbkrf0UdjjAEXw=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MYj7zArSFFf3OWipnlGOFxLE0u1Yaj0kntitgnLzmtk=
+			w7RGfjBzQGxLoEvAMbA/LFT7aDDlfiz4iu1PRPnvYQE=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4gE0os62WsJtjVxjRxk3OiS+dElgsLsIyOjkcSBS4iY=
+			eD7/k4Fl5Hxqh/fHfpm+M9Nhi13HuHMDeBfcBw0+q5w=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cmj6ZAqRrWPSBTp5dtRYWctu0eK04Ng6t4hHdeYjLiY=
+			Auy01//Nx4cAHdCXUTPiwv1oKMZeJtNy6iquppWNvac=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
@@ -134,14 +134,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cmj6ZAqRrWPSBTp5dtRYWctu0eK04Ng6t4hHdeYjLiY=
+			Auy01//Nx4cAHdCXUTPiwv1oKMZeJtNy6iquppWNvac=
 			</data>
 		</dict>
 		<key>Modules/iubenda.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tDkK47UD+1yhRpP5rwgcNBZehPBzRgkOeFhKnjQLOAQ=
+			rF4/RYDb4Ysk3vSBsEioGRotVFjXxUGCHAJ75RSGeoU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

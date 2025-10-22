@@ -6684,6 +6684,72 @@
           },
           {
             "kind": "Function",
+            "name": "shouldGetConsentForInvalidateConsentBefore",
+            "printedName": "shouldGetConsentForInvalidateConsentBefore()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iubenda10IubendaCMPC029shouldGetConsentForInvalidateF6BeforeSbyFZ",
+            "mangledName": "$s7iubenda10IubendaCMPC029shouldGetConsentForInvalidateF6BeforeSbyFZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldGetConsentForInvalidateConsentInterval",
+            "printedName": "shouldGetConsentForInvalidateConsentInterval()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iubenda10IubendaCMPC029shouldGetConsentForInvalidateF8IntervalSbyFZ",
+            "mangledName": "$s7iubenda10IubendaCMPC029shouldGetConsentForInvalidateF8IntervalSbyFZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldGetConsentForGoogleAdditionalConsentMode",
+            "printedName": "shouldGetConsentForGoogleAdditionalConsentMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7iubenda10IubendaCMPC035shouldGetConsentForGoogleAdditionalF4ModeSbyFZ",
+            "mangledName": "$s7iubenda10IubendaCMPC035shouldGetConsentForGoogleAdditionalF4ModeSbyFZ",
+            "moduleName": "iubenda",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "isGooglePersonalized",
             "printedName": "isGooglePersonalized()",
             "children": [
@@ -6836,22 +6902,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@iubenda@objc(cs)IubendaCMP(cm)getRand",
-            "mangledName": "$s7iubenda10IubendaCMPC7getRandSSSgyFZ",
+            "mangledName": "$s7iubenda10IubendaCMPC7getRandSSyFZ",
             "moduleName": "iubenda",
             "static": true,
             "declAttributes": [
@@ -6867,22 +6925,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@iubenda@objc(cs)IubendaCMP(cm)getPreferenceId",
-            "mangledName": "$s7iubenda10IubendaCMPC15getPreferenceIdSSSgyFZ",
+            "mangledName": "$s7iubenda10IubendaCMPC15getPreferenceIdSSyFZ",
             "moduleName": "iubenda",
             "static": true,
             "declAttributes": [
@@ -6946,9 +6996,11 @@
             "mangledName": "$s7iubenda10IubendaCMPC18getConsentRecordIdSSSgyFZ",
             "moduleName": "iubenda",
             "static": true,
+            "deprecated": true,
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "Available"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -7081,50 +7133,6 @@
             "declKind": "Func",
             "usr": "s:7iubenda10IubendaCMPC18getUserPreferencesAA0eF0CyFZ",
             "mangledName": "$s7iubenda10IubendaCMPC18getUserPreferencesAA0eF0CyFZ",
-            "moduleName": "iubenda",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "shouldGetConsentForInvalidateConsentBefore",
-            "printedName": "shouldGetConsentForInvalidateConsentBefore()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7iubenda10IubendaCMPC029shouldGetConsentForInvalidateF6BeforeSbyFZ",
-            "mangledName": "$s7iubenda10IubendaCMPC029shouldGetConsentForInvalidateF6BeforeSbyFZ",
-            "moduleName": "iubenda",
-            "static": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "shouldGetConsentForInvalidateConsentInterval",
-            "printedName": "shouldGetConsentForInvalidateConsentInterval()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7iubenda10IubendaCMPC029shouldGetConsentForInvalidateF8IntervalSbyFZ",
-            "mangledName": "$s7iubenda10IubendaCMPC029shouldGetConsentForInvalidateF8IntervalSbyFZ",
             "moduleName": "iubenda",
             "static": true,
             "declAttributes": [
@@ -22505,7 +22513,7 @@
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 17379,
+      "offset": 15723,
       "length": 1,
       "value": "1"
     },

@@ -168,6 +168,9 @@ extension Foundation.NSNotification.Name {
   @available(*, deprecated, renamed: "isConsentGiven")
   @objc public class func hasConsent() -> Swift.Bool
   @objc public class func shouldGetConsent() -> Swift.Bool
+  public class func shouldGetConsentForInvalidateConsentBefore() -> Swift.Bool
+  public class func shouldGetConsentForInvalidateConsentInterval() -> Swift.Bool
+  public class func shouldGetConsentForGoogleAdditionalConsentMode() -> Swift.Bool
   @available(*, deprecated)
   @objc public class func isGooglePersonalized() -> Swift.Bool
   @objc public class func isPurposeEnabled(id: Swift.Int) -> Swift.Bool
@@ -175,16 +178,13 @@ extension Foundation.NSNotification.Name {
   @objc public class func getPreferencesJson() -> Swift.String
   @objc public class func getPreferences() -> iubenda.Preferences
   @objc public class func getStorePreferences() -> iubenda.StorePreferences
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public class func getRand() -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
-  @objc public class func getPreferenceId() -> Swift.String?
-  #endif
+  @objc public class func getRand() -> Swift.String
+  @objc public class func getPreferenceId() -> Swift.String
   #if compiler(>=5.3) && $NonescapableTypes
   public class func getSaleOptOut() -> iubenda.UsprOptOut?
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
+  @available(*, deprecated)
   @objc public class func getConsentRecordId() -> Swift.String?
   #endif
   @objc public class func getGoogleAdditionalConsent() -> Swift.String
@@ -193,8 +193,6 @@ extension Foundation.NSNotification.Name {
   public class func getVendorList(version: Swift.Int? = nil, callback: @escaping (Swift.Result<iubenda.VendorResult, any Swift.Error>) -> ())
   #endif
   public class func getUserPreferences() -> iubenda.UserPreferences
-  public class func shouldGetConsentForInvalidateConsentBefore() -> Swift.Bool
-  public class func shouldGetConsentForInvalidateConsentInterval() -> Swift.Bool
   public class func isPreferenceExpressed() -> Swift.Bool
   @objc public class func canOpenPreferences() -> Swift.Bool
   @objc public class func getATTStatus(from fromViewController: UIKit.UIViewController, callback: @escaping (iubenda.IubendaCMP.ATTStatus) -> ())
