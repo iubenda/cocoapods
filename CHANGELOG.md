@@ -1,5 +1,14 @@
 # Changelog
 
+### v2.9.5
+- Bugfix
+
+### v2.9.4
+- Added shouldGetConsentForGoogleAdditionalConsentMode() method
+
+### v2.9.3
+- Bugfix
+
 ### v2.9.1
 - Native support for cookiePolicyInOtherWindow
 
