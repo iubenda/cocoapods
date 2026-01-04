@@ -1,5 +1,8 @@
 # Changelog
 
+### v2.9.6
+- Bugfix
+
 ### v2.9.5
 - Bugfix
 

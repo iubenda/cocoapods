@@ -22512,8 +22512,15 @@
     },
     {
       "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2953,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
-      "offset": 15723,
+      "offset": 15813,
       "length": 1,
       "value": "1"
     },
