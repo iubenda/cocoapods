@@ -1,7 +1,7 @@
 
 ## Add the Iubenda SDK to your project
 
-Minimum **iOS 15** / **tvOS 15** from SDK **2.9.9** onward (use **2.9.8** or earlier if you must support iOS 12–14).
+Minimum **iOS 15** / **tvOS 15** from SDK **2.9.9** onward. For **iOS 12–14**, use SPM tag **2.9.8** (or **2.9.7**). Tags **2.9.7**, **2.9.8**, and **2.9.9** are available for Swift Package Manager.
 
 ### Swift Package Manager (Xcode)
 
