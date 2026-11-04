@@ -1,5 +1,11 @@
 # Changelog
 
+### v2.9.9
+
+- Fix consent web views when the host app uses `WKAppBoundDomains`
+- Minimum iOS and tvOS deployment target 15.0
+- Swift Package Manager: tag `2.9.9` with updated `iubenda.xcframework`
+
 ### v2.9.6
 - Bugfix
 

@@ -1,19 +1,30 @@
 
 ## Add the Iubenda SDK to your project
 
-To add the Iubenda SDK to your project, you can either:
-- Use Cocoapods, with the following configuration
+Minimum **iOS 15** / **tvOS 15** from SDK **2.9.9** onward (use **2.9.8** or earlier if you must support iOS 12–14).
+
+### Swift Package Manager (Xcode)
+
+1. **File → Add Package Dependencies…**
+2. URL: `https://github.com/iubenda/cocoapods`
+3. Dependency rule: **Exact Version** `2.9.9` (or **Up to Next Minor** from `2.9.9`)
+4. Add the **IubendaSDK** product to your app target.
+
+SPM resolves **git tags** on this repository; each release tag includes the `iubenda.xcframework` at the repo root (see `Package.swift`).
+
+### CocoaPods
+
 ```
-platform :ios, '12.0'
+platform :ios, '15.0'
 source "https://github.com/iubenda/cocoapods.git"
 target 'MyApp' do
   use_frameworks!
-  pod 'IubendaMobileSDK', '2.9.6'
+  pod 'IubendaMobileSDK', '2.9.9'
 end
 ```
 
 To automatically update the library version with pod update, you can set the dependency as:
-- `'IubendaMobileSDK', '~> 2.9.6'` for trivial updates
+- `'IubendaMobileSDK', '~> 2.9.9'` for trivial updates
 - `'IubendaMobileSDK', '~> 2.9'` for minor updates
 - `'IubendaMobileSDK'` for all updates
 

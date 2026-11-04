@@ -761,6 +761,48 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -775,10 +817,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -789,52 +831,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -1078,17 +1078,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1119,6 +1119,16 @@
             "usr": "s:SY",
             "mangledName": "$sSY"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iubenda",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -2844,45 +2854,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "CMPStorage",
-            "printedName": "CMPStorage",
-            "usr": "c:@M@iubenda@objc(pl)CMPStorage",
-            "mangledName": "$s7iubenda10CMPStorageP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2893,10 +2868,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -2907,10 +2896,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CMPStorage",
+            "printedName": "CMPStorage",
+            "usr": "c:@M@iubenda@objc(pl)CMPStorage",
+            "mangledName": "$s7iubenda10CMPStorageP"
           }
         ]
       },
@@ -7248,17 +7258,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7676,13 +7686,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7694,6 +7697,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8687,13 +8697,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8705,6 +8708,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -10624,38 +10634,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -10666,10 +10648,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -10680,10 +10676,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -10917,17 +10927,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -11190,17 +11200,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -12548,38 +12558,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -12590,10 +12572,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -12604,10 +12600,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -12845,38 +12855,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -12887,10 +12869,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -12901,10 +12897,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -14423,38 +14433,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -14465,10 +14447,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -14479,10 +14475,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -14996,38 +15006,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -15038,10 +15020,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -15052,10 +15048,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -15386,38 +15396,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -15428,10 +15410,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -15442,10 +15438,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -15679,17 +15689,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -18386,38 +18396,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -18428,10 +18410,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -18442,10 +18438,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -18671,17 +18681,17 @@
               },
               {
                 "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
                 "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
               },
               {
                 "kind": "Conformance",
@@ -19719,38 +19729,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -19761,10 +19743,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -19775,10 +19771,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -20229,8 +20239,7 @@
           "SynthesizedProtocol",
           "SynthesizedProtocol",
           "SynthesizedProtocol",
-          "SynthesizedProtocol",
-          "Sendable"
+          "SynthesizedProtocol"
         ],
         "isFromExtension": true,
         "isExternal": true,
@@ -20248,28 +20257,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSString",
-                    "printedName": "Foundation.NSString",
-                    "usr": "c:objc(cs)NSString"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
           },
           {
             "kind": "Conformance",
@@ -20334,6 +20321,28 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
           }
         ]
       },
@@ -20388,8 +20397,8 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "ObjC",
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -20442,8 +20451,8 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "ObjC",
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -20496,8 +20505,8 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "ObjC",
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -20550,8 +20559,8 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "ObjC",
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -20604,8 +20613,8 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "ObjC",
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -20658,8 +20667,8 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "ObjC",
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -20712,8 +20721,8 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "ObjC",
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -20766,8 +20775,8 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "ObjC",
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -20820,8 +20829,8 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "ObjC",
-                  "Final"
+                  "Final",
+                  "ObjC"
                 ],
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -20848,38 +20857,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -20890,10 +20871,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           },
           {
             "kind": "Conformance",
@@ -20904,10 +20899,24 @@
           },
           {
             "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -20923,1239 +20932,1239 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
       "kind": "BooleanLiteral",
       "offset": 199,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
       "kind": "StringLiteral",
       "offset": 243,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/StorePreferences.swift",
       "kind": "StringLiteral",
       "offset": 410,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
       "kind": "IntegerLiteral",
       "offset": 162,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
       "kind": "IntegerLiteral",
       "offset": 179,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UsprOptOut.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Utils\/HexColor.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Utils\/HexColor.swift",
       "kind": "FloatLiteral",
       "offset": 168,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/TaskManager.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Tasks\/TaskManager.swift",
       "kind": "Array",
       "offset": 144,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 26,
       "value": "\"IABConsent_SubjectToGDPR\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 26,
       "value": "\"IABConsent_ConsentString\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 333,
       "length": 33,
       "value": "\"IABConsent_ParsedVendorConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 34,
       "value": "\"IABConsent_ParsedPurposeConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 491,
       "length": 23,
       "value": "\"IABConsent_CMPPresent\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 565,
       "length": 34,
       "value": "\"IubendaCMP_GoogleADsPersonalized\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 30,
       "value": "\"IubendaCMP_Consent_Timestamp\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 744,
       "length": 32,
       "value": "\"IubendaCMP_CustomUi_gvlVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 821,
       "length": 29,
       "value": "\"IubendaCMP_CustomUi_Version\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 890,
       "length": 24,
       "value": "\"IubendaCMP_CustomUi_Id\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 980,
       "length": 50,
       "value": "\"IubendaCMP_CustomUi_PublisherPurposeRestrictions\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 1082,
       "length": 36,
       "value": "\"IubendaCMP_CustomUi_VendorConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 1171,
       "length": 37,
       "value": "\"IubendaCMP_CustomUi_PurposeConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV1.swift",
       "kind": "StringLiteral",
       "offset": 1266,
       "length": 42,
       "value": "\"IubendaCMP_CustomUi_SpecialFeatureOptins\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 25,
       "value": "\"IubendaCMP_PendingTask_\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 24,
       "value": "\"IubendaCMP_Preferences\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/InternalCMPStorage.swift",
       "kind": "StringLiteral",
       "offset": 325,
       "length": 25,
       "value": "\"IubendaCMP_ConsentShown\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 17,
       "value": "\"IABTCF_CmpSdkID\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 22,
       "value": "\"IABTCF_CmpSdkVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 17,
       "value": "\"IABTCF_TCString\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 20,
       "value": "\"IABTCF_gdprApplies\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 414,
       "length": 23,
       "value": "\"IABTCF_VendorConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 483,
       "length": 24,
       "value": "\"IABTCF_PurposeConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 22,
       "value": "\"IABTCF_PolicyVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 613,
       "length": 20,
       "value": "\"IABTCF_PublisherCC\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 673,
       "length": 28,
       "value": "\"IABTCF_PurposeOneTreatment\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 748,
       "length": 29,
       "value": "\"IABTCF_UseNonStandardStacks\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 823,
       "length": 28,
       "value": "\"IABTCF_UseNonStandardTexts\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 905,
       "length": 34,
       "value": "\"IABTCF_VendorLegitimateInterests\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 994,
       "length": 35,
       "value": "\"IABTCF_PurposeLegitimateInterests\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1074,
       "length": 30,
       "value": "\"IABTCF_SpecialFeaturesOptIns\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1160,
       "length": 30,
       "value": "\"IABTCF_PublisherRestrictions\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1236,
       "length": 25,
       "value": "\"IABTCF_PublisherConsent\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1318,
       "length": 37,
       "value": "\"IABTCF_PublisherLegitimateInterests\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1408,
       "length": 40,
       "value": "\"IABTCF_PublisherCustomPurposesConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1519,
       "length": 51,
       "value": "\"IABTCF_PublisherCustomPurposesLegitimateInterests\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1621,
       "length": 34,
       "value": "\"IubendaCMP_GoogleADsPersonalized\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1701,
       "length": 30,
       "value": "\"IubendaCMP_Consent_Timestamp\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1773,
       "length": 21,
       "value": "\"IABTCF_AddtlConsent\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1848,
       "length": 36,
       "value": "\"IABTCF_EnableAdvertiserConsentMode\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 1953,
       "length": 32,
       "value": "\"IubendaCMP_CustomUi_gvlVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2030,
       "length": 29,
       "value": "\"IubendaCMP_CustomUi_Version\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2099,
       "length": 24,
       "value": "\"IubendaCMP_CustomUi_Id\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2189,
       "length": 50,
       "value": "\"IubendaCMP_CustomUi_PublisherPurposeRestrictions\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2291,
       "length": 36,
       "value": "\"IubendaCMP_CustomUi_VendorConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2380,
       "length": 37,
       "value": "\"IubendaCMP_CustomUi_PurposeConsents\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Storage\/CMPStorageV2.swift",
       "kind": "StringLiteral",
       "offset": 2475,
       "length": 42,
       "value": "\"IubendaCMP_CustomUi_SpecialFeatureOptins\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
       "kind": "StringLiteral",
       "offset": 575,
       "length": 74,
       "value": "\"New Consent String Value is not base64 decodable. Throwing away changes.\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
       "kind": "IntegerLiteral",
       "offset": 1894,
       "length": 3,
       "value": "132"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
       "kind": "IntegerLiteral",
       "offset": 1926,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
       "kind": "IntegerLiteral",
       "offset": 3303,
       "length": 3,
       "value": "173"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/ConsentString.swift",
       "kind": "IntegerLiteral",
       "offset": 3351,
       "length": 3,
       "value": "173"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 471,
       "length": 25,
       "value": "\"gvlSpecificationVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 530,
       "length": 19,
       "value": "\"vendorListVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 582,
       "length": 18,
       "value": "\"tcfPolicyVersion\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 628,
       "length": 13,
       "value": "\"lastUpdated\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 9,
       "value": "\"vendors\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 2953,
       "length": 4,
       "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 2978,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3009,
       "length": 10,
       "value": "\"purposes\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3050,
       "length": 16,
       "value": "\"legIntPurposes\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3099,
       "length": 18,
       "value": "\"flexiblePurposes\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3149,
       "length": 17,
       "value": "\"specialPurposes\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3191,
       "length": 10,
       "value": "\"features\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3233,
       "length": 17,
       "value": "\"specialFeatures\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3276,
       "length": 11,
       "value": "\"policyUrl\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3323,
       "length": 21,
       "value": "\"cookieMaxAgeSeconds\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3372,
       "length": 13,
       "value": "\"usesCookies\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3415,
       "length": 15,
       "value": "\"cookieRefresh\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3466,
       "length": 21,
       "value": "\"usesNonCookieAccess\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3530,
       "length": 28,
       "value": "\"deviceStorageDisclosureUrl\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/Parser\/VendorResult.swift",
       "kind": "StringLiteral",
       "offset": 3586,
       "length": 13,
       "value": "\"deletedDate\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UserPreferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/UserPreferences.swift",
       "kind": "BooleanLiteral",
       "offset": 350,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
       "kind": "IntegerLiteral",
       "offset": 134,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
       "kind": "IntegerLiteral",
       "offset": 151,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/GDPRApplies.swift",
       "kind": "IntegerLiteral",
       "offset": 168,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
       "kind": "IntegerLiteral",
       "offset": 136,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
       "kind": "IntegerLiteral",
       "offset": 153,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/SubjectToGDPR.swift",
       "kind": "IntegerLiteral",
       "offset": 170,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 204,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 251,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 308,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 1465,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 1504,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 1780,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "IntegerLiteral",
       "offset": 1828,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "IntegerLiteral",
       "offset": 1864,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "IntegerLiteral",
       "offset": 1905,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 2014,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 2069,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 2124,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 2173,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 2335,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 2438,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "BooleanLiteral",
       "offset": 2498,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 3681,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/Preferences.swift",
       "kind": "StringLiteral",
       "offset": 3735,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/API\/BannerPosition.swift",
       "kind": "IntegerLiteral",
       "offset": 258,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 192,
       "length": 9,
       "value": "\"current\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 243,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 291,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 335,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 382,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 435,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 495,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 552,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 595,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 644,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 685,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1016,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1062,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1108,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1155,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1200,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1238,
       "length": 39,
       "value": "\"https:\/\/cdn.iubenda.com\/cs\/mobile.htm\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1330,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "IntegerLiteral",
       "offset": 1382,
       "length": 4,
       "value": "3000"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1428,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1503,
       "length": 1119,
       "value": "\"csVersion = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1539,
       "length": 11,
       "value": "\"\ngdprEnabled = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1576,
       "length": 12,
       "value": "\"\nforceConsent = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1615,
       "length": 9,
       "value": "\"\ngoogleAds = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1648,
       "length": 11,
       "value": "\"\napplyStyles = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1685,
       "length": 17,
       "value": "\"\nacceptIfDismissed = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1734,
       "length": 24,
       "value": "\"\npreventDismissWhenLoaded = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1797,
       "length": 21,
       "value": "\"\nskipNoticeWhenOffline = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1854,
       "length": 6,
       "value": "\"\nsiteId = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1881,
       "length": 14,
       "value": "\"\ncookiePolicyId = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1924,
       "length": 6,
       "value": "\"\ncssUrl = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1951,
       "length": 7,
       "value": "\"\ncssFile = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1983,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1989,
       "length": 10,
       "value": "\"\ncssContent = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2027,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2033,
       "length": 8,
       "value": "\"\njsonFile = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2067,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2073,
       "length": 11,
       "value": "\"\njsonContent = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2113,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2119,
       "length": 12,
       "value": "\"\ndismissColor = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2174,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2180,
       "length": 14,
       "value": "\"\nbannerPosition = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2223,
       "length": 13,
       "value": "\"\nportraitWidth = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2264,
       "length": 14,
       "value": "\"\nportraitHeight = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2307,
       "length": 14,
       "value": "\"\nlandscapeWidth = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2350,
       "length": 15,
       "value": "\"\nlandscapeHeight = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2395,
       "length": 12,
       "value": "\"\nisFullScreen = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2434,
       "length": 8,
       "value": "\"\nproxyUrl = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2465,
       "length": 17,
       "value": "\"\nfatalErrorTimeout = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2514,
       "length": 22,
       "value": "\"\nautomaticHandlingOfAtt = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2573,
       "length": 11,
       "value": "\"\nmultiThread = \""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMPConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2610,
       "length": 12,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 229,
       "length": 35,
       "value": "\"IubendaConsentChangedNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 36,
       "value": "\"IubendaOnStartupFailedNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 28,
       "value": "\"IubendaOnErrorNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 482,
       "length": 33,
       "value": "\"IubendaOnFatalErrorNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 562,
       "length": 28,
       "value": "\"IubendaOnReadyNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 643,
       "length": 34,
       "value": "\"IubendaOnBannerShownNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 732,
       "length": 36,
       "value": "\"IubendaOn2ndLayerShownNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 829,
       "length": 42,
       "value": "\"IubendaOnPreferenceExpressedNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 924,
       "length": 34,
       "value": "\"IubendaOnPopupClosedNotification\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
       "offset": 1695,
       "length": 3,
       "value": "123"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
       "offset": 1843,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
       "offset": 2626,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
       "offset": 2652,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "BooleanLiteral",
       "offset": 2760,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "StringLiteral",
       "offset": 2818,
       "length": 24,
       "value": "\"iubenda.initialization\""
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "BooleanLiteral",
       "offset": 2953,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/abdullahsonmez\/Desktop\/GITLAB REPO\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
+      "filePath": "\/Users\/fabiotorre\/Documents\/progetti\/iub_cookie_solution_cmp-ios\/Sources\/IubendaCMP\/IubendaCMP.swift",
       "kind": "IntegerLiteral",
       "offset": 15813,
       "length": 1,
