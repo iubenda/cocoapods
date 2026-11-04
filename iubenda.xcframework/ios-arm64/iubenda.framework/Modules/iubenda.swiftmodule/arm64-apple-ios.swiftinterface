@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iubenda
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name iubenda
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
 import AppTrackingTransparency
 import Foundation
 import Network
@@ -27,9 +27,7 @@ import _SwiftConcurrencyShims
   case NOTAPPLICABLE = -1
   case NO = 0
   case YES = 1
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -87,9 +85,7 @@ import _SwiftConcurrencyShims
 }
 @objc public protocol WebViewControllerDelegate {
   @objc func receivedConsent(preferences: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc func onError(url: Foundation.URL?)
-  #endif
   @objc func openLink(url: Swift.String)
   @objc func openExternalLink(url: Foundation.URL) -> Swift.Bool
   @objc func onLargePopup()
@@ -125,9 +121,7 @@ extension Foundation.NSNotification.Name {
   @objc public enum ATTStatus : Swift.Int {
     case Denied = 0
     case Accepted = 1
-    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
-    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -139,12 +133,8 @@ extension Foundation.NSNotification.Name {
   @objc public class func accept()
   @objc public class func reject()
   @objc public class func setStorePreferences(storePreferences: iubenda.StorePreferences)
-  #if compiler(>=5.3) && $NonescapableTypes
   public class func setStorePreferences(storePreferences: iubenda.StorePreferences, callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> ())
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public class func setUserPreferences(userPreferences: iubenda.UserPreferences?, callback: @escaping (Swift.Result<Swift.Bool, any Swift.Error>) -> ())
-  #endif
   @available(*, deprecated, renamed: "openTcfPreferences")
   @objc public class func showConsentPreferences(from fromViewController: UIKit.UIViewController)
   @objc public class func openTcfPreferences(from fromViewController: UIKit.UIViewController)
@@ -180,27 +170,19 @@ extension Foundation.NSNotification.Name {
   @objc public class func getStorePreferences() -> iubenda.StorePreferences
   @objc public class func getRand() -> Swift.String
   @objc public class func getPreferenceId() -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   public class func getSaleOptOut() -> iubenda.UsprOptOut?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated)
   @objc public class func getConsentRecordId() -> Swift.String?
-  #endif
   @objc public class func getGoogleAdditionalConsent() -> Swift.String
   @objc public class func getEnableAdvertiserConsentMode() -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public class func getVendorList(version: Swift.Int? = nil, callback: @escaping (Swift.Result<iubenda.VendorResult, any Swift.Error>) -> ())
-  #endif
   public class func getUserPreferences() -> iubenda.UserPreferences
   public class func isPreferenceExpressed() -> Swift.Bool
   @objc public class func canOpenPreferences() -> Swift.Bool
   @objc public class func getATTStatus(from fromViewController: UIKit.UIViewController, callback: @escaping (iubenda.IubendaCMP.ATTStatus) -> ())
   @objc public class func saveConsent(preferences json: Swift.String, timestamp: Foundation.Date)
   @objc public class func clearData()
-  #if compiler(>=5.3) && $NonescapableTypes
   public class func saveCustomUiData(version: Swift.String?, id: Swift.Int?, publisherPurposeRestrictions: [Swift.String : Swift.String]?, vendorConsents: [Swift.String : Swift.Bool]?, purposeConsents: [Swift.String : Swift.Bool]?, specialFeatureOptins: [Swift.String : Swift.Bool]?)
-  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -489,25 +471,17 @@ public enum ConsentStringError : Swift.Error {
   @_Concurrency.MainActor @preconcurrency public func closeNotice()
   @_Concurrency.MainActor @preconcurrency @objc public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
-  #endif
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationResponse: WebKit.WKNavigationResponse, decisionHandler: @escaping (WebKit.WKNavigationResponsePolicy) -> Swift.Void)
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
-  #endif
   @objc deinit
 }
 @objc public enum BannerPosition : Swift.Int {
   case CENTER = 0
   case TOP = 1
   case BOTTOM = 2
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -517,9 +491,7 @@ public enum ConsentStringError : Swift.Error {
   case unknown = -1
   case no = 0
   case yes = 1
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -545,9 +517,7 @@ public enum ConsentStringError : Swift.Error {
   case unknown = -1
   case no = 0
   case yes = 1
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
